@@ -1,0 +1,17 @@
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\bin\Debug\OgameFarmingInterface.exe.config
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\bin\Debug\OgameFarmingInterface.exe
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\bin\Debug\OgameFarmingInterface.pdb
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.FormAPropos.resources
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.FormGestionComptesOGSpy.resources
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.FormPrincipale.resources
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.FormAffichageRapport.resources
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.FormProgressionExport.resources
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.FormProgressionImport.resources
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.FormProgressionSimulationDeMasse.resources
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.FormRapportDErreur.resources
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.FormSimulation.resources
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.Properties.Resources.resources
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.csproj.GenerateResource.Cache
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.exe
+C:\Users\Anthony\Desktop\SVN_OGSteam\OgameFarmingInterface\obj\Debug\OgameFarmingInterface.pdb
