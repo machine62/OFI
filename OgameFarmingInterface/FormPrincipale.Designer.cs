@@ -31,11 +31,11 @@ namespace OgameFarmingInterface
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager( typeof( FormPrincipale ) );
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipale));
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.listViewResultats = new System.Windows.Forms.ListView();
-            this.contextMenuStripMenuListView = new System.Windows.Forms.ContextMenuStrip( this.components );
+            this.contextMenuStripMenuListView = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.simulerUnCombatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lancerLaSimulationMassiveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -83,27 +83,27 @@ namespace OgameFarmingInterface
             this.buttonChargerFlottePersonnalisee = new System.Windows.Forms.Button();
             this.buttonAjouterFlottePersonnalisee = new System.Windows.Forms.Button();
             this.listViewFlottesPersonnalisées = new System.Windows.Forms.ListView();
-            this.columnHeaderFP_COOR = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_PT = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_GT = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_CLE = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_CLO = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_CR = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_VB = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_VC = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_RC = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_SE = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_BB = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_DS = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_EM = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderFP_TR = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderRatioVitesse = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderTP_A = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderTP_B = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderTP_P = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderTP_C = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderTP_I = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderTP_H = new System.Windows.Forms.ColumnHeader();
+            this.columnHeaderFP_COOR = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_PT = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_GT = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_CLE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_CLO = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_CR = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_VB = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_VC = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_RC = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_SE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_BB = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_DS = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_EM = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderFP_TR = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderRatioVitesse = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTP_A = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTP_B = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTP_P = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTP_C = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTP_I = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTP_H = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBoxEmpire = new System.Windows.Forms.GroupBox();
             this.listViewEmpire = new System.Windows.Forms.ListView();
             this.groupBoxTechnologie = new System.Windows.Forms.GroupBox();
@@ -114,7 +114,7 @@ namespace OgameFarmingInterface
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.textBoxFlotteAttaquanteTechHyperespace = new System.Windows.Forms.TextBox();
-            this.bindingSourceParametresTechnologieAttaquant = new System.Windows.Forms.BindingSource( this.components );
+            this.bindingSourceParametresTechnologieAttaquant = new System.Windows.Forms.BindingSource(this.components);
             this.textBoxFlotteAttaquanteTechImpulsion = new System.Windows.Forms.TextBox();
             this.textBoxFlotteAttaquanteTechCombustion = new System.Windows.Forms.TextBox();
             this.textBoxFlotteAttaquanteTechProtections = new System.Windows.Forms.TextBox();
@@ -125,7 +125,7 @@ namespace OgameFarmingInterface
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.textBoxFlotteAttaquanteTraqueur = new System.Windows.Forms.TextBox();
-            this.bindingSourceParametresFlotteAttaquante = new System.Windows.Forms.BindingSource( this.components );
+            this.bindingSourceParametresFlotteAttaquante = new System.Windows.Forms.BindingSource(this.components);
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -156,10 +156,10 @@ namespace OgameFarmingInterface
             this.groupBoxRecherche = new System.Windows.Forms.GroupBox();
             this.buttonCopierResultatRecherche = new System.Windows.Forms.Button();
             this.listViewResultatsDeRecherche = new System.Windows.Forms.ListView();
-            this.columnHeaderResultatRechercheCoordonnees = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderResultatRechercheNom = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderResultatRechercheAlliance = new System.Windows.Forms.ColumnHeader();
-            this.columnHeaderResultatRecherchePresenceLune = new System.Windows.Forms.ColumnHeader();
+            this.columnHeaderResultatRechercheCoordonnees = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderResultatRechercheNom = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderResultatRechercheAlliance = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderResultatRecherchePresenceLune = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.textBoxNomARechercher = new System.Windows.Forms.TextBox();
             this.radioButtonChercheJoueur = new System.Windows.Forms.RadioButton();
             this.radioButtonChercheAlliance = new System.Windows.Forms.RadioButton();
@@ -179,14 +179,14 @@ namespace OgameFarmingInterface
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.groupBoxVueSysteme = new System.Windows.Forms.GroupBox();
             this.listViewSysteme = new System.Windows.Forms.ListView();
-            this.Position = new System.Windows.Forms.ColumnHeader();
-            this.Lune = new System.Windows.Forms.ColumnHeader();
-            this.Rapport = new System.Windows.Forms.ColumnHeader();
-            this.Date = new System.Windows.Forms.ColumnHeader();
-            this.Nom = new System.Windows.Forms.ColumnHeader();
-            this.Joueur = new System.Windows.Forms.ColumnHeader();
-            this.Alliance = new System.Windows.Forms.ColumnHeader();
-            this.contextMenuStripSysteme = new System.Windows.Forms.ContextMenuStrip( this.components );
+            this.Position = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Lune = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Rapport = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Date = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Nom = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Joueur = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Alliance = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.contextMenuStripSysteme = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.simulerUnCombatToolStripMenuSystemeItem = new System.Windows.Forms.ToolStripMenuItem();
             this.afficherLeRapportToolStripMenuSystemeItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabPageClassement = new System.Windows.Forms.TabPage();
@@ -198,6 +198,7 @@ namespace OgameFarmingInterface
             this.checkBoxMiseAJourAutomatique = new System.Windows.Forms.CheckBox();
             this.checkBoxEnregistrerEnQuittant = new System.Windows.Forms.CheckBox();
             this.groupBoxServeur = new System.Windows.Forms.GroupBox();
+            this.ButtonInfoserver = new System.Windows.Forms.Button();
             this.buttonGereLesComptesOGSpy = new System.Windows.Forms.Button();
             this.checkedListBoxSelectionGalaxies = new System.Windows.Forms.CheckedListBox();
             this.label36 = new System.Windows.Forms.Label();
@@ -260,7 +261,7 @@ namespace OgameFarmingInterface
             this.buttonHome = new System.Windows.Forms.Button();
             this.buttonSuivant = new System.Windows.Forms.Button();
             this.buttonPrecedant = new System.Windows.Forms.Button();
-            this.contextMenuStripTray = new System.Windows.Forms.ContextMenuStrip( this.components );
+            this.contextMenuStripTray = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripTrayMenuItemQuitter = new System.Windows.Forms.ToolStripMenuItem();
             this.backgroundWorkerTesterMiseAJour = new System.ComponentModel.BackgroundWorker();
             this.statusStrip1.SuspendLayout();
@@ -304,19 +305,19 @@ namespace OgameFarmingInterface
             // statusStrip1
             // 
             this.statusStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.statusStrip1.Items.AddRange( new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1} );
-            this.statusStrip1.Location = new System.Drawing.Point( 0, 0 );
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 0);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding( 1, 0, 9, 0 );
-            this.statusStrip1.Size = new System.Drawing.Size( 1687, 22 );
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 9, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1125, 22);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size( 0, 17 );
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
             // 
             // listViewResultats
             // 
@@ -325,23 +326,24 @@ namespace OgameFarmingInterface
             this.listViewResultats.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listViewResultats.FullRowSelect = true;
             this.listViewResultats.HideSelection = false;
-            this.listViewResultats.Location = new System.Drawing.Point( 4, 5 );
+            this.listViewResultats.Location = new System.Drawing.Point(3, 3);
+            this.listViewResultats.Margin = new System.Windows.Forms.Padding(2);
             this.listViewResultats.Name = "listViewResultats";
-            this.listViewResultats.Size = new System.Drawing.Size( 1665, 998 );
+            this.listViewResultats.Size = new System.Drawing.Size(1107, 628);
             this.listViewResultats.TabIndex = 3;
             this.listViewResultats.UseCompatibleStateImageBehavior = false;
             this.listViewResultats.View = System.Windows.Forms.View.Details;
             this.listViewResultats.VirtualMode = true;
-            this.listViewResultats.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler( this.listViewResultats_MouseDoubleClick );
-            this.listViewResultats.VirtualItemsSelectionRangeChanged += new System.Windows.Forms.ListViewVirtualItemsSelectionRangeChangedEventHandler( this.listViewResultats_VirtualItemsSelectionRangeChanged );
-            this.listViewResultats.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler( this.listViewResultats_ColumnClick );
-            this.listViewResultats.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler( this.listViewResultats_RetrieveVirtualItem );
-            this.listViewResultats.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler( this.listViewResultats_ItemSelectionChanged );
-            this.listViewResultats.KeyDown += new System.Windows.Forms.KeyEventHandler( this.listViewResultats_KeyDown );
+            this.listViewResultats.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listViewResultats_ColumnClick);
+            this.listViewResultats.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.listViewResultats_ItemSelectionChanged);
+            this.listViewResultats.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler(this.listViewResultats_RetrieveVirtualItem);
+            this.listViewResultats.VirtualItemsSelectionRangeChanged += new System.Windows.Forms.ListViewVirtualItemsSelectionRangeChangedEventHandler(this.listViewResultats_VirtualItemsSelectionRangeChanged);
+            this.listViewResultats.KeyDown += new System.Windows.Forms.KeyEventHandler(this.listViewResultats_KeyDown);
+            this.listViewResultats.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listViewResultats_MouseDoubleClick);
             // 
             // contextMenuStripMenuListView
             // 
-            this.contextMenuStripMenuListView.Items.AddRange( new System.Windows.Forms.ToolStripItem[] {
+            this.contextMenuStripMenuListView.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.simulerUnCombatToolStripMenuItem,
             this.lancerLaSimulationMassiveToolStripMenuItem,
             this.toolStripSeparator2,
@@ -358,131 +360,131 @@ namespace OgameFarmingInterface
             this.exporterToolStripMenuItem,
             this.importerToolStripMenuItem,
             this.toolStripSeparator5,
-            this.toolStripMenuItemCommentaires} );
+            this.toolStripMenuItemCommentaires});
             this.contextMenuStripMenuListView.Name = "contextMenuStripMenuListView";
-            this.contextMenuStripMenuListView.Size = new System.Drawing.Size( 323, 366 );
+            this.contextMenuStripMenuListView.Size = new System.Drawing.Size(231, 314);
             // 
             // simulerUnCombatToolStripMenuItem
             // 
             this.simulerUnCombatToolStripMenuItem.Image = global::OgameFarmingInterface.Properties.Resources.Engrenage16;
             this.simulerUnCombatToolStripMenuItem.Name = "simulerUnCombatToolStripMenuItem";
-            this.simulerUnCombatToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.simulerUnCombatToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.simulerUnCombatToolStripMenuItem.Text = "Simuler un combat";
-            this.simulerUnCombatToolStripMenuItem.Click += new System.EventHandler( this.simulerUnCombatToolStripMenuItem_Click );
+            this.simulerUnCombatToolStripMenuItem.Click += new System.EventHandler(this.simulerUnCombatToolStripMenuItem_Click);
             // 
             // lancerLaSimulationMassiveToolStripMenuItem
             // 
             this.lancerLaSimulationMassiveToolStripMenuItem.Image = global::OgameFarmingInterface.Properties.Resources.EngrenageMultiple16;
             this.lancerLaSimulationMassiveToolStripMenuItem.Name = "lancerLaSimulationMassiveToolStripMenuItem";
-            this.lancerLaSimulationMassiveToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.lancerLaSimulationMassiveToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.lancerLaSimulationMassiveToolStripMenuItem.Text = "Lancer la simulation massive";
-            this.lancerLaSimulationMassiveToolStripMenuItem.Click += new System.EventHandler( this.lancerLaSimulationMassiveToolStripMenuItem_Click );
+            this.lancerLaSimulationMassiveToolStripMenuItem.Click += new System.EventHandler(this.lancerLaSimulationMassiveToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size( 319, 6 );
+            this.toolStripSeparator2.Size = new System.Drawing.Size(227, 6);
             // 
             // EnvoyerEnHautToolStripMenuItem
             // 
             this.EnvoyerEnHautToolStripMenuItem.Name = "EnvoyerEnHautToolStripMenuItem";
-            this.EnvoyerEnHautToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.EnvoyerEnHautToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.EnvoyerEnHautToolStripMenuItem.Text = "Envoyer au début de la liste";
-            this.EnvoyerEnHautToolStripMenuItem.Click += new System.EventHandler( this.EnvoyerEnHautToolStripMenuItem_Click );
+            this.EnvoyerEnHautToolStripMenuItem.Click += new System.EventHandler(this.EnvoyerEnHautToolStripMenuItem_Click);
             // 
             // envoyerALaFinDeLaListeToolStripMenuItem
             // 
             this.envoyerALaFinDeLaListeToolStripMenuItem.Name = "envoyerALaFinDeLaListeToolStripMenuItem";
-            this.envoyerALaFinDeLaListeToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.envoyerALaFinDeLaListeToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.envoyerALaFinDeLaListeToolStripMenuItem.Text = "Envoyer à la fin de la liste";
-            this.envoyerALaFinDeLaListeToolStripMenuItem.Click += new System.EventHandler( this.envoyerALaFinDeLaListeToolStripMenuItem_Click );
+            this.envoyerALaFinDeLaListeToolStripMenuItem.Click += new System.EventHandler(this.envoyerALaFinDeLaListeToolStripMenuItem_Click);
             // 
             // toolStripMenuItemSupprimerLesRapportsSelectionnes
             // 
             this.toolStripMenuItemSupprimerLesRapportsSelectionnes.Image = global::OgameFarmingInterface.Properties.Resources.Supprimer;
             this.toolStripMenuItemSupprimerLesRapportsSelectionnes.ImageTransparentColor = System.Drawing.Color.Black;
             this.toolStripMenuItemSupprimerLesRapportsSelectionnes.Name = "toolStripMenuItemSupprimerLesRapportsSelectionnes";
-            this.toolStripMenuItemSupprimerLesRapportsSelectionnes.Size = new System.Drawing.Size( 322, 26 );
+            this.toolStripMenuItemSupprimerLesRapportsSelectionnes.Size = new System.Drawing.Size(230, 22);
             this.toolStripMenuItemSupprimerLesRapportsSelectionnes.Text = "Supprimer les rapports";
-            this.toolStripMenuItemSupprimerLesRapportsSelectionnes.Click += new System.EventHandler( this.toolStripMenuItemSupprimerLesRapportsSelectionnes_Click );
+            this.toolStripMenuItemSupprimerLesRapportsSelectionnes.Click += new System.EventHandler(this.toolStripMenuItemSupprimerLesRapportsSelectionnes_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size( 319, 6 );
+            this.toolStripSeparator3.Size = new System.Drawing.Size(227, 6);
             // 
             // AfficherLeRapportToolStripMenuItem
             // 
             this.AfficherLeRapportToolStripMenuItem.Image = global::OgameFarmingInterface.Properties.Resources.Loupe;
             this.AfficherLeRapportToolStripMenuItem.Name = "AfficherLeRapportToolStripMenuItem";
-            this.AfficherLeRapportToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.AfficherLeRapportToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.AfficherLeRapportToolStripMenuItem.Text = "Afficher le rapport";
-            this.AfficherLeRapportToolStripMenuItem.Click += new System.EventHandler( this.AfficherLeRapportToolStripMenuItem_Click );
+            this.AfficherLeRapportToolStripMenuItem.Click += new System.EventHandler(this.AfficherLeRapportToolStripMenuItem_Click);
             // 
             // copierLeRapportNormalToolStripMenuItem
             // 
             this.copierLeRapportNormalToolStripMenuItem.Image = global::OgameFarmingInterface.Properties.Resources.Copier;
             this.copierLeRapportNormalToolStripMenuItem.Name = "copierLeRapportNormalToolStripMenuItem";
-            this.copierLeRapportNormalToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.copierLeRapportNormalToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.copierLeRapportNormalToolStripMenuItem.Text = "Copier le rapport";
-            this.copierLeRapportNormalToolStripMenuItem.Click += new System.EventHandler( this.copierLeRapportNormalToolStripMenuItem_Click );
+            this.copierLeRapportNormalToolStripMenuItem.Click += new System.EventHandler(this.copierLeRapportNormalToolStripMenuItem_Click);
             // 
             // copierLeRapportToolStripMenuItem
             // 
             this.copierLeRapportToolStripMenuItem.Image = global::OgameFarmingInterface.Properties.Resources.CopierIE;
             this.copierLeRapportToolStripMenuItem.Name = "copierLeRapportToolStripMenuItem";
-            this.copierLeRapportToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.copierLeRapportToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.copierLeRapportToolStripMenuItem.Text = "Copier le rapport (forum)";
-            this.copierLeRapportToolStripMenuItem.Click += new System.EventHandler( this.copierLeRapportToolStripMenuItem_Click );
+            this.copierLeRapportToolStripMenuItem.Click += new System.EventHandler(this.copierLeRapportToolStripMenuItem_Click);
             // 
             // copierLeRapportsansfontToolStripMenuItem
             // 
             this.copierLeRapportsansfontToolStripMenuItem.Image = global::OgameFarmingInterface.Properties.Resources.CopierIE;
             this.copierLeRapportsansfontToolStripMenuItem.Name = "copierLeRapportsansfontToolStripMenuItem";
-            this.copierLeRapportsansfontToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.copierLeRapportsansfontToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.copierLeRapportsansfontToolStripMenuItem.Text = "Copier le rapport (sans [font])";
-            this.copierLeRapportsansfontToolStripMenuItem.Click += new System.EventHandler( this.copierLeRapportsansfontToolStripMenuItem_Click );
+            this.copierLeRapportsansfontToolStripMenuItem.Click += new System.EventHandler(this.copierLeRapportsansfontToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size( 319, 6 );
+            this.toolStripSeparator4.Size = new System.Drawing.Size(227, 6);
             // 
             // envoyerLesRapportsAuServeurToolStripMenuItem
             // 
             this.envoyerLesRapportsAuServeurToolStripMenuItem.Image = global::OgameFarmingInterface.Properties.Resources.ExporterVersBDD;
             this.envoyerLesRapportsAuServeurToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.envoyerLesRapportsAuServeurToolStripMenuItem.Name = "envoyerLesRapportsAuServeurToolStripMenuItem";
-            this.envoyerLesRapportsAuServeurToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.envoyerLesRapportsAuServeurToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.envoyerLesRapportsAuServeurToolStripMenuItem.Text = "Envoyer les rapports (OGSpy)";
-            this.envoyerLesRapportsAuServeurToolStripMenuItem.Click += new System.EventHandler( this.envoyerLesRapportsAuServeurToolStripMenuItem_Click );
+            this.envoyerLesRapportsAuServeurToolStripMenuItem.Click += new System.EventHandler(this.envoyerLesRapportsAuServeurToolStripMenuItem_Click);
             // 
             // exporterToolStripMenuItem
             // 
             this.exporterToolStripMenuItem.Image = global::OgameFarmingInterface.Properties.Resources.Exporter;
             this.exporterToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.exporterToolStripMenuItem.Name = "exporterToolStripMenuItem";
-            this.exporterToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.exporterToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.exporterToolStripMenuItem.Text = "Exporter les rapports (fichier)";
-            this.exporterToolStripMenuItem.Click += new System.EventHandler( this.exporterToolStripMenuItem_Click );
+            this.exporterToolStripMenuItem.Click += new System.EventHandler(this.exporterToolStripMenuItem_Click);
             // 
             // importerToolStripMenuItem
             // 
             this.importerToolStripMenuItem.Image = global::OgameFarmingInterface.Properties.Resources.Importer;
             this.importerToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.importerToolStripMenuItem.Name = "importerToolStripMenuItem";
-            this.importerToolStripMenuItem.Size = new System.Drawing.Size( 322, 26 );
+            this.importerToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
             this.importerToolStripMenuItem.Text = "Importer les rapports (fichier)";
-            this.importerToolStripMenuItem.Click += new System.EventHandler( this.importerToolStripMenuItem_Click );
+            this.importerToolStripMenuItem.Click += new System.EventHandler(this.importerToolStripMenuItem_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size( 319, 6 );
+            this.toolStripSeparator5.Size = new System.Drawing.Size(227, 6);
             // 
             // toolStripMenuItemCommentaires
             // 
-            this.toolStripMenuItemCommentaires.DropDownItems.AddRange( new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemCommentaires.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripTextBoxCommentaire,
             this.toolStripMenuItemValideCommentaires,
             this.toolStripSeparator6,
@@ -490,71 +492,71 @@ namespace OgameFarmingInterface
             this.toolStripMenuItemCommentairePredefiniCoffre,
             this.toolStripMenuItemCommentairePredefiniTropPetit,
             this.toolStripMenuItemCommentairePredefiniFlotteAQuai,
-            this.toolStripMenuItemCommentairePredefiniPille} );
+            this.toolStripMenuItemCommentairePredefiniPille});
             this.toolStripMenuItemCommentaires.Image = global::OgameFarmingInterface.Properties.Resources.Checked;
             this.toolStripMenuItemCommentaires.Name = "toolStripMenuItemCommentaires";
-            this.toolStripMenuItemCommentaires.Size = new System.Drawing.Size( 322, 26 );
+            this.toolStripMenuItemCommentaires.Size = new System.Drawing.Size(230, 22);
             this.toolStripMenuItemCommentaires.Text = "Commentaires";
-            this.toolStripMenuItemCommentaires.DropDownOpened += new System.EventHandler( this.toolStripMenuItemCommentaires_DropDownOpened );
+            this.toolStripMenuItemCommentaires.DropDownOpened += new System.EventHandler(this.toolStripMenuItemCommentaires_DropDownOpened);
             // 
             // toolStripTextBoxCommentaire
             // 
             this.toolStripTextBoxCommentaire.Name = "toolStripTextBoxCommentaire";
-            this.toolStripTextBoxCommentaire.Size = new System.Drawing.Size( 100, 28 );
-            this.toolStripTextBoxCommentaire.TextChanged += new System.EventHandler( this.toolStripTextBoxCommentaire_TextChanged );
+            this.toolStripTextBoxCommentaire.Size = new System.Drawing.Size(100, 23);
+            this.toolStripTextBoxCommentaire.TextChanged += new System.EventHandler(this.toolStripTextBoxCommentaire_TextChanged);
             // 
             // toolStripMenuItemValideCommentaires
             // 
             this.toolStripMenuItemValideCommentaires.Name = "toolStripMenuItemValideCommentaires";
-            this.toolStripMenuItemValideCommentaires.Size = new System.Drawing.Size( 190, 26 );
+            this.toolStripMenuItemValideCommentaires.Size = new System.Drawing.Size(160, 22);
             this.toolStripMenuItemValideCommentaires.Text = "Valide";
-            this.toolStripMenuItemValideCommentaires.Click += new System.EventHandler( this.toolStripMenuItemValideCommentaires_Click );
+            this.toolStripMenuItemValideCommentaires.Click += new System.EventHandler(this.toolStripMenuItemValideCommentaires_Click);
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size( 187, 6 );
+            this.toolStripSeparator6.Size = new System.Drawing.Size(157, 6);
             // 
             // toolStripMenuItemCommentairePredefiniPasRentable
             // 
             this.toolStripMenuItemCommentairePredefiniPasRentable.Name = "toolStripMenuItemCommentairePredefiniPasRentable";
-            this.toolStripMenuItemCommentairePredefiniPasRentable.Size = new System.Drawing.Size( 190, 26 );
+            this.toolStripMenuItemCommentairePredefiniPasRentable.Size = new System.Drawing.Size(160, 22);
             this.toolStripMenuItemCommentairePredefiniPasRentable.Text = "Pas rentable";
-            this.toolStripMenuItemCommentairePredefiniPasRentable.Click += new System.EventHandler( this.toolStripMenuItemCommentairePredefiniPasRentable_Click );
+            this.toolStripMenuItemCommentairePredefiniPasRentable.Click += new System.EventHandler(this.toolStripMenuItemCommentairePredefiniPasRentable_Click);
             // 
             // toolStripMenuItemCommentairePredefiniCoffre
             // 
             this.toolStripMenuItemCommentairePredefiniCoffre.Name = "toolStripMenuItemCommentairePredefiniCoffre";
-            this.toolStripMenuItemCommentairePredefiniCoffre.Size = new System.Drawing.Size( 190, 26 );
+            this.toolStripMenuItemCommentairePredefiniCoffre.Size = new System.Drawing.Size(160, 22);
             this.toolStripMenuItemCommentairePredefiniCoffre.Text = "Coffre fort";
-            this.toolStripMenuItemCommentairePredefiniCoffre.Click += new System.EventHandler( this.toolStripMenuItemCommentairePredefiniCoffre_Click );
+            this.toolStripMenuItemCommentairePredefiniCoffre.Click += new System.EventHandler(this.toolStripMenuItemCommentairePredefiniCoffre_Click);
             // 
             // toolStripMenuItemCommentairePredefiniTropPetit
             // 
             this.toolStripMenuItemCommentairePredefiniTropPetit.Name = "toolStripMenuItemCommentairePredefiniTropPetit";
-            this.toolStripMenuItemCommentairePredefiniTropPetit.Size = new System.Drawing.Size( 190, 26 );
+            this.toolStripMenuItemCommentairePredefiniTropPetit.Size = new System.Drawing.Size(160, 22);
             this.toolStripMenuItemCommentairePredefiniTropPetit.Text = "Trop petit";
-            this.toolStripMenuItemCommentairePredefiniTropPetit.Click += new System.EventHandler( this.toolStripMenuItemCommentairePredefiniTropPetit_Click );
+            this.toolStripMenuItemCommentairePredefiniTropPetit.Click += new System.EventHandler(this.toolStripMenuItemCommentairePredefiniTropPetit_Click);
             // 
             // toolStripMenuItemCommentairePredefiniFlotteAQuai
             // 
             this.toolStripMenuItemCommentairePredefiniFlotteAQuai.Name = "toolStripMenuItemCommentairePredefiniFlotteAQuai";
-            this.toolStripMenuItemCommentairePredefiniFlotteAQuai.Size = new System.Drawing.Size( 190, 26 );
+            this.toolStripMenuItemCommentairePredefiniFlotteAQuai.Size = new System.Drawing.Size(160, 22);
             this.toolStripMenuItemCommentairePredefiniFlotteAQuai.Text = "Flotte à quai";
-            this.toolStripMenuItemCommentairePredefiniFlotteAQuai.Click += new System.EventHandler( this.toolStripMenuItemCommentairePredefiniFlotteAQuai_Click );
+            this.toolStripMenuItemCommentairePredefiniFlotteAQuai.Click += new System.EventHandler(this.toolStripMenuItemCommentairePredefiniFlotteAQuai_Click);
             // 
             // toolStripMenuItemCommentairePredefiniPille
             // 
             this.toolStripMenuItemCommentairePredefiniPille.Name = "toolStripMenuItemCommentairePredefiniPille";
-            this.toolStripMenuItemCommentairePredefiniPille.Size = new System.Drawing.Size( 190, 26 );
+            this.toolStripMenuItemCommentairePredefiniPille.Size = new System.Drawing.Size(160, 22);
             this.toolStripMenuItemCommentairePredefiniPille.Text = "Pillé";
-            this.toolStripMenuItemCommentairePredefiniPille.Click += new System.EventHandler( this.toolStripMenuItemCommentairePredefiniPille_Click );
+            this.toolStripMenuItemCommentairePredefiniPille.Click += new System.EventHandler(this.toolStripMenuItemCommentairePredefiniPille_Click);
             // 
             // toolStrip1
             // 
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.toolStrip1.Items.AddRange( new System.Windows.Forms.ToolStripItem[] {
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nouveauToolStripButton,
             this.ouvrirToolStripButton,
             this.enregistrerToolStripButton,
@@ -565,167 +567,164 @@ namespace OgameFarmingInterface
             this.copierToolStripButton,
             this.collerToolStripButton,
             this.toolStripSeparator1,
-            this.ToolStripButton} );
-            this.toolStrip1.Location = new System.Drawing.Point( 3, 0 );
+            this.ToolStripButton});
+            this.toolStrip1.Location = new System.Drawing.Point(3, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size( 222, 25 );
+            this.toolStrip1.Size = new System.Drawing.Size(222, 25);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // nouveauToolStripButton
             // 
             this.nouveauToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.nouveauToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject( "nouveauToolStripButton.Image" )));
+            this.nouveauToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("nouveauToolStripButton.Image")));
             this.nouveauToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.nouveauToolStripButton.Name = "nouveauToolStripButton";
-            this.nouveauToolStripButton.Size = new System.Drawing.Size( 23, 22 );
+            this.nouveauToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.nouveauToolStripButton.Text = "&Nouveau";
-            this.nouveauToolStripButton.Click += new System.EventHandler( this.nouveauToolStripButton_Click );
+            this.nouveauToolStripButton.Click += new System.EventHandler(this.nouveauToolStripButton_Click);
             // 
             // ouvrirToolStripButton
             // 
             this.ouvrirToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ouvrirToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject( "ouvrirToolStripButton.Image" )));
+            this.ouvrirToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("ouvrirToolStripButton.Image")));
             this.ouvrirToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ouvrirToolStripButton.Name = "ouvrirToolStripButton";
-            this.ouvrirToolStripButton.Size = new System.Drawing.Size( 23, 22 );
+            this.ouvrirToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.ouvrirToolStripButton.Text = "&Ouvrir";
-            this.ouvrirToolStripButton.Click += new System.EventHandler( this.ouvrirToolStripButton_Click );
+            this.ouvrirToolStripButton.Click += new System.EventHandler(this.ouvrirToolStripButton_Click);
             // 
             // enregistrerToolStripButton
             // 
             this.enregistrerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.enregistrerToolStripButton.Enabled = false;
-            this.enregistrerToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject( "enregistrerToolStripButton.Image" )));
+            this.enregistrerToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("enregistrerToolStripButton.Image")));
             this.enregistrerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.enregistrerToolStripButton.Name = "enregistrerToolStripButton";
-            this.enregistrerToolStripButton.Size = new System.Drawing.Size( 23, 22 );
+            this.enregistrerToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.enregistrerToolStripButton.Text = "&Enregistrer";
-            this.enregistrerToolStripButton.Click += new System.EventHandler( this.enregistrerToolStripButton_Click );
+            this.enregistrerToolStripButton.Click += new System.EventHandler(this.enregistrerToolStripButton_Click);
             // 
             // enregistrerSousToolStripButton
             // 
             this.enregistrerSousToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.enregistrerSousToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject( "enregistrerSousToolStripButton.Image" )));
+            this.enregistrerSousToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("enregistrerSousToolStripButton.Image")));
             this.enregistrerSousToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.enregistrerSousToolStripButton.Name = "enregistrerSousToolStripButton";
-            this.enregistrerSousToolStripButton.Size = new System.Drawing.Size( 23, 22 );
+            this.enregistrerSousToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.enregistrerSousToolStripButton.Text = "&Enregistrer sous...";
-            this.enregistrerSousToolStripButton.Click += new System.EventHandler( this.enregistrerSousToolStripButton_Click );
+            this.enregistrerSousToolStripButton.Click += new System.EventHandler(this.enregistrerSousToolStripButton_Click);
             // 
             // imprimerToolStripButton
             // 
             this.imprimerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.imprimerToolStripButton.Enabled = false;
-            this.imprimerToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject( "imprimerToolStripButton.Image" )));
+            this.imprimerToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("imprimerToolStripButton.Image")));
             this.imprimerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.imprimerToolStripButton.Name = "imprimerToolStripButton";
-            this.imprimerToolStripButton.Size = new System.Drawing.Size( 23, 22 );
+            this.imprimerToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.imprimerToolStripButton.Text = "&Imprimer";
-            this.imprimerToolStripButton.Click += new System.EventHandler( this.imprimerToolStripButton_Click );
+            this.imprimerToolStripButton.Click += new System.EventHandler(this.imprimerToolStripButton_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size( 6, 25 );
+            this.toolStripSeparator.Size = new System.Drawing.Size(6, 25);
             // 
             // couperToolStripButton
             // 
             this.couperToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.couperToolStripButton.Enabled = false;
-            this.couperToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject( "couperToolStripButton.Image" )));
+            this.couperToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("couperToolStripButton.Image")));
             this.couperToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.couperToolStripButton.Name = "couperToolStripButton";
-            this.couperToolStripButton.Size = new System.Drawing.Size( 23, 22 );
+            this.couperToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.couperToolStripButton.Text = "C&ouper";
-            this.couperToolStripButton.Click += new System.EventHandler( this.couperToolStripButton_Click );
+            this.couperToolStripButton.Click += new System.EventHandler(this.couperToolStripButton_Click);
             // 
             // copierToolStripButton
             // 
             this.copierToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.copierToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject( "copierToolStripButton.Image" )));
+            this.copierToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("copierToolStripButton.Image")));
             this.copierToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.copierToolStripButton.Name = "copierToolStripButton";
-            this.copierToolStripButton.Size = new System.Drawing.Size( 23, 22 );
+            this.copierToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.copierToolStripButton.Text = "Co&pier";
-            this.copierToolStripButton.Click += new System.EventHandler( this.copierToolStripButton_Click );
+            this.copierToolStripButton.Click += new System.EventHandler(this.copierToolStripButton_Click);
             // 
             // collerToolStripButton
             // 
             this.collerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.collerToolStripButton.Enabled = false;
-            this.collerToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject( "collerToolStripButton.Image" )));
+            this.collerToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("collerToolStripButton.Image")));
             this.collerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.collerToolStripButton.Name = "collerToolStripButton";
-            this.collerToolStripButton.Size = new System.Drawing.Size( 23, 22 );
+            this.collerToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.collerToolStripButton.Text = "Co&ller";
-            this.collerToolStripButton.Click += new System.EventHandler( this.collerToolStripButton_Click );
+            this.collerToolStripButton.Click += new System.EventHandler(this.collerToolStripButton_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size( 6, 25 );
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // ToolStripButton
             // 
             this.ToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject( "ToolStripButton.Image" )));
+            this.ToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("ToolStripButton.Image")));
             this.ToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ToolStripButton.Name = "ToolStripButton";
-            this.ToolStripButton.Size = new System.Drawing.Size( 23, 22 );
+            this.ToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.ToolStripButton.Text = "&?";
-            this.ToolStripButton.Click += new System.EventHandler( this.ToolStripButton_Click );
+            this.ToolStripButton.Click += new System.EventHandler(this.ToolStripButton_Click);
             // 
             // toolStripContainer1
             // 
             // 
             // toolStripContainer1.BottomToolStripPanel
             // 
-            this.toolStripContainer1.BottomToolStripPanel.Controls.Add( this.statusStrip1 );
+            this.toolStripContainer1.BottomToolStripPanel.Controls.Add(this.statusStrip1);
             // 
             // toolStripContainer1.ContentPanel
             // 
-            this.toolStripContainer1.ContentPanel.Controls.Add( this.tabControlPrincipal );
-            this.toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size( 1687, 1055 );
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.tabControlPrincipal);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1125, 669);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.toolStripContainer1.Location = new System.Drawing.Point( 0, 0 );
-            this.toolStripContainer1.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.toolStripContainer1.Location = new System.Drawing.Point(0, 0);
             this.toolStripContainer1.Name = "toolStripContainer1";
-            this.toolStripContainer1.Size = new System.Drawing.Size( 1687, 1102 );
+            this.toolStripContainer1.Size = new System.Drawing.Size(1125, 716);
             this.toolStripContainer1.TabIndex = 5;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
             // toolStripContainer1.TopToolStripPanel
             // 
-            this.toolStripContainer1.TopToolStripPanel.Controls.Add( this.toolStrip1 );
+            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.toolStrip1);
             // 
             // tabControlPrincipal
             // 
-            this.tabControlPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControlPrincipal.Controls.Add( this.tabPageRapports );
-            this.tabControlPrincipal.Controls.Add( this.tabPageAttaquant );
-            this.tabControlPrincipal.Controls.Add( this.tabPageUnivers );
-            this.tabControlPrincipal.Controls.Add( this.tabPageClassement );
-            this.tabControlPrincipal.Controls.Add( this.tabPageParametres );
-            this.tabControlPrincipal.Controls.Add( this.tabPageNavigateur );
-            this.tabControlPrincipal.Location = new System.Drawing.Point( 4, 5 );
-            this.tabControlPrincipal.Margin = new System.Windows.Forms.Padding( 4, 5, 2, 2 );
+            this.tabControlPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControlPrincipal.Controls.Add(this.tabPageRapports);
+            this.tabControlPrincipal.Controls.Add(this.tabPageAttaquant);
+            this.tabControlPrincipal.Controls.Add(this.tabPageUnivers);
+            this.tabControlPrincipal.Controls.Add(this.tabPageClassement);
+            this.tabControlPrincipal.Controls.Add(this.tabPageParametres);
+            this.tabControlPrincipal.Controls.Add(this.tabPageNavigateur);
+            this.tabControlPrincipal.Location = new System.Drawing.Point(3, 3);
+            this.tabControlPrincipal.Margin = new System.Windows.Forms.Padding(3, 3, 1, 1);
             this.tabControlPrincipal.Name = "tabControlPrincipal";
             this.tabControlPrincipal.SelectedIndex = 0;
-            this.tabControlPrincipal.Size = new System.Drawing.Size( 1681, 1041 );
+            this.tabControlPrincipal.Size = new System.Drawing.Size(1121, 660);
             this.tabControlPrincipal.TabIndex = 4;
             // 
             // tabPageRapports
             // 
-            this.tabPageRapports.Controls.Add( this.listViewResultats );
-            this.tabPageRapports.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPageRapports.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPageRapports.Controls.Add(this.listViewResultats);
+            this.tabPageRapports.Location = new System.Drawing.Point(4, 22);
             this.tabPageRapports.Name = "tabPageRapports";
-            this.tabPageRapports.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPageRapports.Size = new System.Drawing.Size( 1673, 1008 );
+            this.tabPageRapports.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageRapports.Size = new System.Drawing.Size(1113, 634);
             this.tabPageRapports.TabIndex = 0;
             this.tabPageRapports.Text = "Rapports d\'espionnage";
             this.tabPageRapports.UseVisualStyleBackColor = true;
@@ -733,21 +732,20 @@ namespace OgameFarmingInterface
             // tabPageAttaquant
             // 
             this.tabPageAttaquant.AutoScroll = true;
-            this.tabPageAttaquant.AutoScrollMargin = new System.Drawing.Size( 5, 5 );
-            this.tabPageAttaquant.Controls.Add( this.buttonDescendreFlottePersonnalisee );
-            this.tabPageAttaquant.Controls.Add( this.buttonSupprimerFlottePersonnalisee );
-            this.tabPageAttaquant.Controls.Add( this.buttonMonterFlottePersonnalisee );
-            this.tabPageAttaquant.Controls.Add( this.buttonChargerFlottePersonnalisee );
-            this.tabPageAttaquant.Controls.Add( this.buttonAjouterFlottePersonnalisee );
-            this.tabPageAttaquant.Controls.Add( this.listViewFlottesPersonnalisées );
-            this.tabPageAttaquant.Controls.Add( this.groupBoxEmpire );
-            this.tabPageAttaquant.Controls.Add( this.groupBoxTechnologie );
-            this.tabPageAttaquant.Controls.Add( this.groupBoxFlotte );
-            this.tabPageAttaquant.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPageAttaquant.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPageAttaquant.AutoScrollMargin = new System.Drawing.Size(5, 5);
+            this.tabPageAttaquant.Controls.Add(this.buttonDescendreFlottePersonnalisee);
+            this.tabPageAttaquant.Controls.Add(this.buttonSupprimerFlottePersonnalisee);
+            this.tabPageAttaquant.Controls.Add(this.buttonMonterFlottePersonnalisee);
+            this.tabPageAttaquant.Controls.Add(this.buttonChargerFlottePersonnalisee);
+            this.tabPageAttaquant.Controls.Add(this.buttonAjouterFlottePersonnalisee);
+            this.tabPageAttaquant.Controls.Add(this.listViewFlottesPersonnalisées);
+            this.tabPageAttaquant.Controls.Add(this.groupBoxEmpire);
+            this.tabPageAttaquant.Controls.Add(this.groupBoxTechnologie);
+            this.tabPageAttaquant.Controls.Add(this.groupBoxFlotte);
+            this.tabPageAttaquant.Location = new System.Drawing.Point(4, 22);
             this.tabPageAttaquant.Name = "tabPageAttaquant";
-            this.tabPageAttaquant.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPageAttaquant.Size = new System.Drawing.Size( 1673, 1008 );
+            this.tabPageAttaquant.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageAttaquant.Size = new System.Drawing.Size(1113, 634);
             this.tabPageAttaquant.TabIndex = 1;
             this.tabPageAttaquant.Text = "Paramétrage attaquant";
             this.tabPageAttaquant.UseVisualStyleBackColor = true;
@@ -755,64 +753,69 @@ namespace OgameFarmingInterface
             // buttonDescendreFlottePersonnalisee
             // 
             this.buttonDescendreFlottePersonnalisee.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonDescendreFlottePersonnalisee.Location = new System.Drawing.Point( 1452, 715 );
+            this.buttonDescendreFlottePersonnalisee.Location = new System.Drawing.Point(968, 465);
+            this.buttonDescendreFlottePersonnalisee.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDescendreFlottePersonnalisee.Name = "buttonDescendreFlottePersonnalisee";
-            this.buttonDescendreFlottePersonnalisee.Size = new System.Drawing.Size( 159, 38 );
+            this.buttonDescendreFlottePersonnalisee.Size = new System.Drawing.Size(106, 25);
             this.buttonDescendreFlottePersonnalisee.TabIndex = 15;
             this.buttonDescendreFlottePersonnalisee.Text = "Descendre";
             this.buttonDescendreFlottePersonnalisee.UseVisualStyleBackColor = true;
-            this.buttonDescendreFlottePersonnalisee.Click += new System.EventHandler( this.buttonDescendreFlottePersonnalisee_Click );
+            this.buttonDescendreFlottePersonnalisee.Click += new System.EventHandler(this.buttonDescendreFlottePersonnalisee_Click);
             // 
             // buttonSupprimerFlottePersonnalisee
             // 
             this.buttonSupprimerFlottePersonnalisee.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonSupprimerFlottePersonnalisee.Location = new System.Drawing.Point( 1452, 672 );
+            this.buttonSupprimerFlottePersonnalisee.Location = new System.Drawing.Point(968, 437);
+            this.buttonSupprimerFlottePersonnalisee.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSupprimerFlottePersonnalisee.Name = "buttonSupprimerFlottePersonnalisee";
-            this.buttonSupprimerFlottePersonnalisee.Size = new System.Drawing.Size( 159, 38 );
+            this.buttonSupprimerFlottePersonnalisee.Size = new System.Drawing.Size(106, 25);
             this.buttonSupprimerFlottePersonnalisee.TabIndex = 16;
             this.buttonSupprimerFlottePersonnalisee.Text = "Supprimer";
             this.buttonSupprimerFlottePersonnalisee.UseVisualStyleBackColor = true;
-            this.buttonSupprimerFlottePersonnalisee.Click += new System.EventHandler( this.buttonSupprimerFlottePersonnalisee_Click );
+            this.buttonSupprimerFlottePersonnalisee.Click += new System.EventHandler(this.buttonSupprimerFlottePersonnalisee_Click);
             // 
             // buttonMonterFlottePersonnalisee
             // 
             this.buttonMonterFlottePersonnalisee.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonMonterFlottePersonnalisee.Location = new System.Drawing.Point( 1452, 628 );
+            this.buttonMonterFlottePersonnalisee.Location = new System.Drawing.Point(968, 408);
+            this.buttonMonterFlottePersonnalisee.Margin = new System.Windows.Forms.Padding(2);
             this.buttonMonterFlottePersonnalisee.Name = "buttonMonterFlottePersonnalisee";
-            this.buttonMonterFlottePersonnalisee.Size = new System.Drawing.Size( 159, 38 );
+            this.buttonMonterFlottePersonnalisee.Size = new System.Drawing.Size(106, 25);
             this.buttonMonterFlottePersonnalisee.TabIndex = 15;
             this.buttonMonterFlottePersonnalisee.Text = "Monter";
             this.buttonMonterFlottePersonnalisee.UseVisualStyleBackColor = true;
-            this.buttonMonterFlottePersonnalisee.Click += new System.EventHandler( this.buttonMonterFlottePersonnalisee_Click );
+            this.buttonMonterFlottePersonnalisee.Click += new System.EventHandler(this.buttonMonterFlottePersonnalisee_Click);
             // 
             // buttonChargerFlottePersonnalisee
             // 
             this.buttonChargerFlottePersonnalisee.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonChargerFlottePersonnalisee.Location = new System.Drawing.Point( 1452, 585 );
+            this.buttonChargerFlottePersonnalisee.Location = new System.Drawing.Point(968, 380);
+            this.buttonChargerFlottePersonnalisee.Margin = new System.Windows.Forms.Padding(2);
             this.buttonChargerFlottePersonnalisee.Name = "buttonChargerFlottePersonnalisee";
-            this.buttonChargerFlottePersonnalisee.Size = new System.Drawing.Size( 159, 38 );
+            this.buttonChargerFlottePersonnalisee.Size = new System.Drawing.Size(106, 25);
             this.buttonChargerFlottePersonnalisee.TabIndex = 14;
             this.buttonChargerFlottePersonnalisee.Text = "Charger";
             this.buttonChargerFlottePersonnalisee.UseVisualStyleBackColor = true;
-            this.buttonChargerFlottePersonnalisee.Click += new System.EventHandler( this.buttonChargerFlottePersonnalisee_Click );
+            this.buttonChargerFlottePersonnalisee.Click += new System.EventHandler(this.buttonChargerFlottePersonnalisee_Click);
             // 
             // buttonAjouterFlottePersonnalisee
             // 
             this.buttonAjouterFlottePersonnalisee.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonAjouterFlottePersonnalisee.Location = new System.Drawing.Point( 1452, 540 );
+            this.buttonAjouterFlottePersonnalisee.Location = new System.Drawing.Point(968, 351);
+            this.buttonAjouterFlottePersonnalisee.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAjouterFlottePersonnalisee.Name = "buttonAjouterFlottePersonnalisee";
-            this.buttonAjouterFlottePersonnalisee.Size = new System.Drawing.Size( 159, 38 );
+            this.buttonAjouterFlottePersonnalisee.Size = new System.Drawing.Size(106, 25);
             this.buttonAjouterFlottePersonnalisee.TabIndex = 13;
             this.buttonAjouterFlottePersonnalisee.Text = "Ajouter";
             this.buttonAjouterFlottePersonnalisee.UseVisualStyleBackColor = true;
-            this.buttonAjouterFlottePersonnalisee.Click += new System.EventHandler( this.buttonAjouterFlottePersonnalisee_Click );
+            this.buttonAjouterFlottePersonnalisee.Click += new System.EventHandler(this.buttonAjouterFlottePersonnalisee_Click);
             // 
             // listViewFlottesPersonnalisées
             // 
-            this.listViewFlottesPersonnalisées.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.listViewFlottesPersonnalisées.Columns.AddRange( new System.Windows.Forms.ColumnHeader[] {
+            this.listViewFlottesPersonnalisées.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listViewFlottesPersonnalisées.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeaderFP_COOR,
             this.columnHeaderFP_PT,
             this.columnHeaderFP_GT,
@@ -833,22 +836,23 @@ namespace OgameFarmingInterface
             this.columnHeaderTP_P,
             this.columnHeaderTP_C,
             this.columnHeaderTP_I,
-            this.columnHeaderTP_H} );
+            this.columnHeaderTP_H});
             this.listViewFlottesPersonnalisées.FullRowSelect = true;
             this.listViewFlottesPersonnalisées.HideSelection = false;
-            this.listViewFlottesPersonnalisées.Location = new System.Drawing.Point( 4, 540 );
+            this.listViewFlottesPersonnalisées.Location = new System.Drawing.Point(3, 351);
+            this.listViewFlottesPersonnalisées.Margin = new System.Windows.Forms.Padding(2);
             this.listViewFlottesPersonnalisées.MultiSelect = false;
             this.listViewFlottesPersonnalisées.Name = "listViewFlottesPersonnalisées";
-            this.listViewFlottesPersonnalisées.Size = new System.Drawing.Size( 1440, 441 );
+            this.listViewFlottesPersonnalisées.Size = new System.Drawing.Size(961, 276);
             this.listViewFlottesPersonnalisées.TabIndex = 12;
             this.listViewFlottesPersonnalisées.UseCompatibleStateImageBehavior = false;
             this.listViewFlottesPersonnalisées.View = System.Windows.Forms.View.Details;
             this.listViewFlottesPersonnalisées.VirtualMode = true;
-            this.listViewFlottesPersonnalisées.VirtualItemsSelectionRangeChanged += new System.Windows.Forms.ListViewVirtualItemsSelectionRangeChangedEventHandler( this.listViewFlottesPersonnalisées_VirtualItemsSelectionRangeChanged );
-            this.listViewFlottesPersonnalisées.DoubleClick += new System.EventHandler( this.listViewFlottesPersonnalisées_DoubleClick );
-            this.listViewFlottesPersonnalisées.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler( this.listViewFlottesPersonnalisées_RetrieveVirtualItem );
-            this.listViewFlottesPersonnalisées.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler( this.listViewFlottesPersonnalisées_ItemSelectionChanged );
-            this.listViewFlottesPersonnalisées.KeyDown += new System.Windows.Forms.KeyEventHandler( this.listViewFlottesPersonnalisées_KeyDown );
+            this.listViewFlottesPersonnalisées.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.listViewFlottesPersonnalisées_ItemSelectionChanged);
+            this.listViewFlottesPersonnalisées.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler(this.listViewFlottesPersonnalisées_RetrieveVirtualItem);
+            this.listViewFlottesPersonnalisées.VirtualItemsSelectionRangeChanged += new System.Windows.Forms.ListViewVirtualItemsSelectionRangeChangedEventHandler(this.listViewFlottesPersonnalisées_VirtualItemsSelectionRangeChanged);
+            this.listViewFlottesPersonnalisées.DoubleClick += new System.EventHandler(this.listViewFlottesPersonnalisées_DoubleClick);
+            this.listViewFlottesPersonnalisées.KeyDown += new System.Windows.Forms.KeyEventHandler(this.listViewFlottesPersonnalisées_KeyDown);
             // 
             // columnHeaderFP_COOR
             // 
@@ -975,55 +979,50 @@ namespace OgameFarmingInterface
             // 
             // groupBoxEmpire
             // 
-            this.groupBoxEmpire.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBoxEmpire.Controls.Add( this.listViewEmpire );
-            this.groupBoxEmpire.Location = new System.Drawing.Point( 4, 9 );
-            this.groupBoxEmpire.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.groupBoxEmpire.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBoxEmpire.Controls.Add(this.listViewEmpire);
+            this.groupBoxEmpire.Location = new System.Drawing.Point(3, 6);
             this.groupBoxEmpire.Name = "groupBoxEmpire";
-            this.groupBoxEmpire.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.groupBoxEmpire.Size = new System.Drawing.Size( 1356, 432 );
+            this.groupBoxEmpire.Size = new System.Drawing.Size(904, 281);
             this.groupBoxEmpire.TabIndex = 11;
             this.groupBoxEmpire.TabStop = false;
             this.groupBoxEmpire.Text = "Empire : flottes";
             // 
             // listViewEmpire
             // 
-            this.listViewEmpire.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listViewEmpire.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listViewEmpire.FullRowSelect = true;
             this.listViewEmpire.HideSelection = false;
-            this.listViewEmpire.Location = new System.Drawing.Point( 9, 29 );
-            this.listViewEmpire.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.listViewEmpire.Location = new System.Drawing.Point(6, 19);
             this.listViewEmpire.Name = "listViewEmpire";
-            this.listViewEmpire.Size = new System.Drawing.Size( 1336, 392 );
+            this.listViewEmpire.Size = new System.Drawing.Size(892, 256);
             this.listViewEmpire.TabIndex = 0;
             this.listViewEmpire.UseCompatibleStateImageBehavior = false;
             this.listViewEmpire.View = System.Windows.Forms.View.Details;
-            this.listViewEmpire.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler( this.listViewEmpire_ColumnClick );
+            this.listViewEmpire.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listViewEmpire_ColumnClick);
             // 
             // groupBoxTechnologie
             // 
-            this.groupBoxTechnologie.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBoxTechnologie.Controls.Add( this.label20 );
-            this.groupBoxTechnologie.Controls.Add( this.label19 );
-            this.groupBoxTechnologie.Controls.Add( this.label18 );
-            this.groupBoxTechnologie.Controls.Add( this.label17 );
-            this.groupBoxTechnologie.Controls.Add( this.label16 );
-            this.groupBoxTechnologie.Controls.Add( this.label15 );
-            this.groupBoxTechnologie.Controls.Add( this.textBoxFlotteAttaquanteTechHyperespace );
-            this.groupBoxTechnologie.Controls.Add( this.textBoxFlotteAttaquanteTechImpulsion );
-            this.groupBoxTechnologie.Controls.Add( this.textBoxFlotteAttaquanteTechCombustion );
-            this.groupBoxTechnologie.Controls.Add( this.textBoxFlotteAttaquanteTechProtections );
-            this.groupBoxTechnologie.Controls.Add( this.textBoxFlotteAttaquanteTechBoucliers );
-            this.groupBoxTechnologie.Controls.Add( this.textBoxFlotteAttaquanteTechArmes );
-            this.groupBoxTechnologie.Location = new System.Drawing.Point( 4, 452 );
-            this.groupBoxTechnologie.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.groupBoxTechnologie.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBoxTechnologie.Controls.Add(this.label20);
+            this.groupBoxTechnologie.Controls.Add(this.label19);
+            this.groupBoxTechnologie.Controls.Add(this.label18);
+            this.groupBoxTechnologie.Controls.Add(this.label17);
+            this.groupBoxTechnologie.Controls.Add(this.label16);
+            this.groupBoxTechnologie.Controls.Add(this.label15);
+            this.groupBoxTechnologie.Controls.Add(this.textBoxFlotteAttaquanteTechHyperespace);
+            this.groupBoxTechnologie.Controls.Add(this.textBoxFlotteAttaquanteTechImpulsion);
+            this.groupBoxTechnologie.Controls.Add(this.textBoxFlotteAttaquanteTechCombustion);
+            this.groupBoxTechnologie.Controls.Add(this.textBoxFlotteAttaquanteTechProtections);
+            this.groupBoxTechnologie.Controls.Add(this.textBoxFlotteAttaquanteTechBoucliers);
+            this.groupBoxTechnologie.Controls.Add(this.textBoxFlotteAttaquanteTechArmes);
+            this.groupBoxTechnologie.Location = new System.Drawing.Point(3, 294);
             this.groupBoxTechnologie.Name = "groupBoxTechnologie";
-            this.groupBoxTechnologie.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.groupBoxTechnologie.Size = new System.Drawing.Size( 1356, 80 );
+            this.groupBoxTechnologie.Size = new System.Drawing.Size(904, 52);
             this.groupBoxTechnologie.TabIndex = 10;
             this.groupBoxTechnologie.TabStop = false;
             this.groupBoxTechnologie.Text = "Flotte attaquante : Technologies";
@@ -1031,9 +1030,10 @@ namespace OgameFarmingInterface
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point( 970, 40 );
+            this.label20.Location = new System.Drawing.Point(647, 26);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size( 103, 20 );
+            this.label20.Size = new System.Drawing.Size(70, 13);
             this.label20.TabIndex = 20;
             this.label20.Text = "Hyperespace";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1041,9 +1041,10 @@ namespace OgameFarmingInterface
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point( 800, 40 );
+            this.label19.Location = new System.Drawing.Point(533, 26);
+            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size( 77, 20 );
+            this.label19.Size = new System.Drawing.Size(51, 13);
             this.label19.TabIndex = 19;
             this.label19.Text = "Impulsion";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1051,9 +1052,10 @@ namespace OgameFarmingInterface
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point( 585, 40 );
+            this.label18.Location = new System.Drawing.Point(390, 26);
+            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size( 94, 20 );
+            this.label18.Size = new System.Drawing.Size(62, 13);
             this.label18.TabIndex = 18;
             this.label18.Text = "Combustion";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1061,9 +1063,10 @@ namespace OgameFarmingInterface
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point( 393, 40 );
+            this.label17.Location = new System.Drawing.Point(262, 26);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size( 89, 20 );
+            this.label17.Size = new System.Drawing.Size(60, 13);
             this.label17.TabIndex = 17;
             this.label17.Text = "Protections";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1071,9 +1074,10 @@ namespace OgameFarmingInterface
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point( 212, 40 );
+            this.label16.Location = new System.Drawing.Point(141, 26);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size( 74, 20 );
+            this.label16.Size = new System.Drawing.Size(50, 13);
             this.label16.TabIndex = 16;
             this.label16.Text = "Boucliers";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1081,115 +1085,114 @@ namespace OgameFarmingInterface
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point( 33, 40 );
+            this.label15.Location = new System.Drawing.Point(22, 26);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size( 55, 20 );
+            this.label15.Size = new System.Drawing.Size(36, 13);
             this.label15.TabIndex = 15;
             this.label15.Text = "Armes";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // textBoxFlotteAttaquanteTechHyperespace
             // 
-            this.textBoxFlotteAttaquanteTechHyperespace.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresTechnologieAttaquant, "PropulsionHyperespace", true ) );
-            this.textBoxFlotteAttaquanteTechHyperespace.Location = new System.Drawing.Point( 1078, 37 );
-            this.textBoxFlotteAttaquanteTechHyperespace.Margin = new System.Windows.Forms.Padding( 3, 0, 3, 0 );
+            this.textBoxFlotteAttaquanteTechHyperespace.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresTechnologieAttaquant, "PropulsionHyperespace", true));
+            this.textBoxFlotteAttaquanteTechHyperespace.Location = new System.Drawing.Point(719, 24);
+            this.textBoxFlotteAttaquanteTechHyperespace.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.textBoxFlotteAttaquanteTechHyperespace.Name = "textBoxFlotteAttaquanteTechHyperespace";
-            this.textBoxFlotteAttaquanteTechHyperespace.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteTechHyperespace.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteTechHyperespace.TabIndex = 6;
-            this.textBoxFlotteAttaquanteTechHyperespace.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteTechHyperespace.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // bindingSourceParametresTechnologieAttaquant
             // 
-            this.bindingSourceParametresTechnologieAttaquant.DataSource = typeof( Ogame.Technologie );
+            this.bindingSourceParametresTechnologieAttaquant.DataSource = typeof(Ogame.Technologie);
             // 
             // textBoxFlotteAttaquanteTechImpulsion
             // 
-            this.textBoxFlotteAttaquanteTechImpulsion.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresTechnologieAttaquant, "ReacteurAImpulsion", true ) );
-            this.textBoxFlotteAttaquanteTechImpulsion.Location = new System.Drawing.Point( 882, 37 );
-            this.textBoxFlotteAttaquanteTechImpulsion.Margin = new System.Windows.Forms.Padding( 3, 0, 3, 0 );
+            this.textBoxFlotteAttaquanteTechImpulsion.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresTechnologieAttaquant, "ReacteurAImpulsion", true));
+            this.textBoxFlotteAttaquanteTechImpulsion.Location = new System.Drawing.Point(588, 24);
+            this.textBoxFlotteAttaquanteTechImpulsion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.textBoxFlotteAttaquanteTechImpulsion.Name = "textBoxFlotteAttaquanteTechImpulsion";
-            this.textBoxFlotteAttaquanteTechImpulsion.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteTechImpulsion.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteTechImpulsion.TabIndex = 5;
-            this.textBoxFlotteAttaquanteTechImpulsion.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteTechImpulsion.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteTechCombustion
             // 
-            this.textBoxFlotteAttaquanteTechCombustion.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresTechnologieAttaquant, "ReacteurACombustion", true ) );
-            this.textBoxFlotteAttaquanteTechCombustion.Location = new System.Drawing.Point( 686, 37 );
-            this.textBoxFlotteAttaquanteTechCombustion.Margin = new System.Windows.Forms.Padding( 3, 0, 3, 0 );
+            this.textBoxFlotteAttaquanteTechCombustion.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresTechnologieAttaquant, "ReacteurACombustion", true));
+            this.textBoxFlotteAttaquanteTechCombustion.Location = new System.Drawing.Point(457, 24);
+            this.textBoxFlotteAttaquanteTechCombustion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.textBoxFlotteAttaquanteTechCombustion.Name = "textBoxFlotteAttaquanteTechCombustion";
-            this.textBoxFlotteAttaquanteTechCombustion.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteTechCombustion.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteTechCombustion.TabIndex = 4;
-            this.textBoxFlotteAttaquanteTechCombustion.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteTechCombustion.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteTechProtections
             // 
-            this.textBoxFlotteAttaquanteTechProtections.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresTechnologieAttaquant, "ProtectionDesVaisseauxSpatiaux", true ) );
-            this.textBoxFlotteAttaquanteTechProtections.Location = new System.Drawing.Point( 488, 37 );
-            this.textBoxFlotteAttaquanteTechProtections.Margin = new System.Windows.Forms.Padding( 3, 0, 3, 0 );
+            this.textBoxFlotteAttaquanteTechProtections.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresTechnologieAttaquant, "ProtectionDesVaisseauxSpatiaux", true));
+            this.textBoxFlotteAttaquanteTechProtections.Location = new System.Drawing.Point(325, 24);
+            this.textBoxFlotteAttaquanteTechProtections.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.textBoxFlotteAttaquanteTechProtections.Name = "textBoxFlotteAttaquanteTechProtections";
-            this.textBoxFlotteAttaquanteTechProtections.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteTechProtections.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteTechProtections.TabIndex = 3;
-            this.textBoxFlotteAttaquanteTechProtections.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteTechProtections.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteTechBoucliers
             // 
-            this.textBoxFlotteAttaquanteTechBoucliers.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresTechnologieAttaquant, "Bouclier", true ) );
-            this.textBoxFlotteAttaquanteTechBoucliers.Location = new System.Drawing.Point( 291, 37 );
-            this.textBoxFlotteAttaquanteTechBoucliers.Margin = new System.Windows.Forms.Padding( 3, 0, 3, 0 );
+            this.textBoxFlotteAttaquanteTechBoucliers.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresTechnologieAttaquant, "Bouclier", true));
+            this.textBoxFlotteAttaquanteTechBoucliers.Location = new System.Drawing.Point(194, 24);
+            this.textBoxFlotteAttaquanteTechBoucliers.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.textBoxFlotteAttaquanteTechBoucliers.Name = "textBoxFlotteAttaquanteTechBoucliers";
-            this.textBoxFlotteAttaquanteTechBoucliers.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteTechBoucliers.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteTechBoucliers.TabIndex = 2;
-            this.textBoxFlotteAttaquanteTechBoucliers.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteTechBoucliers.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteTechArmes
             // 
-            this.textBoxFlotteAttaquanteTechArmes.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresTechnologieAttaquant, "Armes", true ) );
-            this.textBoxFlotteAttaquanteTechArmes.Location = new System.Drawing.Point( 94, 37 );
-            this.textBoxFlotteAttaquanteTechArmes.Margin = new System.Windows.Forms.Padding( 3, 0, 3, 0 );
+            this.textBoxFlotteAttaquanteTechArmes.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresTechnologieAttaquant, "Armes", true));
+            this.textBoxFlotteAttaquanteTechArmes.Location = new System.Drawing.Point(63, 24);
+            this.textBoxFlotteAttaquanteTechArmes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.textBoxFlotteAttaquanteTechArmes.Name = "textBoxFlotteAttaquanteTechArmes";
-            this.textBoxFlotteAttaquanteTechArmes.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteTechArmes.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteTechArmes.TabIndex = 1;
-            this.textBoxFlotteAttaquanteTechArmes.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteTechArmes.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // groupBoxFlotte
             // 
             this.groupBoxFlotte.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBoxFlotte.Controls.Add( this.comboBoxVitesse );
-            this.groupBoxFlotte.Controls.Add( this.label33 );
-            this.groupBoxFlotte.Controls.Add( this.label34 );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteTraqueur );
-            this.groupBoxFlotte.Controls.Add( this.label14 );
-            this.groupBoxFlotte.Controls.Add( this.label13 );
-            this.groupBoxFlotte.Controls.Add( this.label11 );
-            this.groupBoxFlotte.Controls.Add( this.label10 );
-            this.groupBoxFlotte.Controls.Add( this.label9 );
-            this.groupBoxFlotte.Controls.Add( this.label8 );
-            this.groupBoxFlotte.Controls.Add( this.label7 );
-            this.groupBoxFlotte.Controls.Add( this.label6 );
-            this.groupBoxFlotte.Controls.Add( this.label5 );
-            this.groupBoxFlotte.Controls.Add( this.label4 );
-            this.groupBoxFlotte.Controls.Add( this.label3 );
-            this.groupBoxFlotte.Controls.Add( this.label2 );
-            this.groupBoxFlotte.Controls.Add( this.label1 );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteCoordonnees );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteEDLM );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteDES );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteB );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteSondes );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteRC );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteVC );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteVB );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteCR );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteCL );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteCle );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquanteGT );
-            this.groupBoxFlotte.Controls.Add( this.textBoxFlotteAttaquantePT );
-            this.groupBoxFlotte.Location = new System.Drawing.Point( 1369, 9 );
-            this.groupBoxFlotte.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.groupBoxFlotte.Controls.Add(this.comboBoxVitesse);
+            this.groupBoxFlotte.Controls.Add(this.label33);
+            this.groupBoxFlotte.Controls.Add(this.label34);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteTraqueur);
+            this.groupBoxFlotte.Controls.Add(this.label14);
+            this.groupBoxFlotte.Controls.Add(this.label13);
+            this.groupBoxFlotte.Controls.Add(this.label11);
+            this.groupBoxFlotte.Controls.Add(this.label10);
+            this.groupBoxFlotte.Controls.Add(this.label9);
+            this.groupBoxFlotte.Controls.Add(this.label8);
+            this.groupBoxFlotte.Controls.Add(this.label7);
+            this.groupBoxFlotte.Controls.Add(this.label6);
+            this.groupBoxFlotte.Controls.Add(this.label5);
+            this.groupBoxFlotte.Controls.Add(this.label4);
+            this.groupBoxFlotte.Controls.Add(this.label3);
+            this.groupBoxFlotte.Controls.Add(this.label2);
+            this.groupBoxFlotte.Controls.Add(this.label1);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteCoordonnees);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteEDLM);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteDES);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteB);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteSondes);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteRC);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteVC);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteVB);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteCR);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteCL);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteCle);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquanteGT);
+            this.groupBoxFlotte.Controls.Add(this.textBoxFlotteAttaquantePT);
+            this.groupBoxFlotte.Location = new System.Drawing.Point(913, 6);
             this.groupBoxFlotte.Name = "groupBoxFlotte";
-            this.groupBoxFlotte.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.groupBoxFlotte.Size = new System.Drawing.Size( 290, 523 );
+            this.groupBoxFlotte.Size = new System.Drawing.Size(193, 340);
             this.groupBoxFlotte.TabIndex = 9;
             this.groupBoxFlotte.TabStop = false;
             this.groupBoxFlotte.Text = "Flotte attaquante";
@@ -1198,8 +1201,8 @@ namespace OgameFarmingInterface
             // 
             this.comboBoxVitesse.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxVitesse.FormattingEnabled = true;
-            this.comboBoxVitesse.ItemHeight = 20;
-            this.comboBoxVitesse.Items.AddRange( new object[] {
+            this.comboBoxVitesse.ItemHeight = 13;
+            this.comboBoxVitesse.Items.AddRange(new object[] {
             "100%",
             "90%",
             "80%",
@@ -1209,23 +1212,22 @@ namespace OgameFarmingInterface
             "40%",
             "30%",
             "20%",
-            "10%"} );
-            this.comboBoxVitesse.Location = new System.Drawing.Point( 172, 20 );
-            this.comboBoxVitesse.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            "10%"});
+            this.comboBoxVitesse.Location = new System.Drawing.Point(115, 13);
             this.comboBoxVitesse.MaxDropDownItems = 10;
             this.comboBoxVitesse.Name = "comboBoxVitesse";
-            this.comboBoxVitesse.Size = new System.Drawing.Size( 100, 28 );
+            this.comboBoxVitesse.Size = new System.Drawing.Size(68, 21);
             this.comboBoxVitesse.TabIndex = 18;
-            this.comboBoxVitesse.TextChanged += new System.EventHandler( this.comboBoxVitesse_TextChanged );
+            this.comboBoxVitesse.TextChanged += new System.EventHandler(this.comboBoxVitesse_TextChanged);
             // 
             // label33
             // 
             this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point( 118, 483 );
-            this.label33.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label33.Location = new System.Drawing.Point(79, 314);
+            this.label33.Margin = new System.Windows.Forms.Padding(2);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size( 73, 20 );
+            this.label33.Size = new System.Drawing.Size(50, 13);
             this.label33.TabIndex = 29;
             this.label33.Text = "Traqueur";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1233,34 +1235,34 @@ namespace OgameFarmingInterface
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point( 100, 25 );
-            this.label34.Margin = new System.Windows.Forms.Padding( 4, 0, 4, 0 );
+            this.label34.Location = new System.Drawing.Point(67, 16);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size( 62, 20 );
+            this.label34.Size = new System.Drawing.Size(41, 13);
             this.label34.TabIndex = 17;
             this.label34.Text = "Vitesse";
             // 
             // textBoxFlotteAttaquanteTraqueur
             // 
             this.textBoxFlotteAttaquanteTraqueur.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteTraqueur.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "Battlecruiser", true ) );
-            this.textBoxFlotteAttaquanteTraqueur.Location = new System.Drawing.Point( 200, 480 );
+            this.textBoxFlotteAttaquanteTraqueur.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "Battlecruiser", true));
+            this.textBoxFlotteAttaquanteTraqueur.Location = new System.Drawing.Point(133, 312);
+            this.textBoxFlotteAttaquanteTraqueur.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteTraqueur.Name = "textBoxFlotteAttaquanteTraqueur";
-            this.textBoxFlotteAttaquanteTraqueur.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteTraqueur.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteTraqueur.TabIndex = 28;
             // 
             // bindingSourceParametresFlotteAttaquante
             // 
-            this.bindingSourceParametresFlotteAttaquante.DataSource = typeof( Ogame.Flotte );
+            this.bindingSourceParametresFlotteAttaquante.DataSource = typeof(Ogame.Flotte);
             // 
             // label14
             // 
             this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point( 70, 449 );
-            this.label14.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label14.Location = new System.Drawing.Point(47, 292);
+            this.label14.Margin = new System.Windows.Forms.Padding(2);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size( 123, 20 );
+            this.label14.Size = new System.Drawing.Size(83, 13);
             this.label14.TabIndex = 27;
             this.label14.Text = "Etoile de la Mort";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1269,10 +1271,10 @@ namespace OgameFarmingInterface
             // 
             this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point( 100, 418 );
-            this.label13.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label13.Location = new System.Drawing.Point(67, 272);
+            this.label13.Margin = new System.Windows.Forms.Padding(2);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size( 93, 20 );
+            this.label13.Size = new System.Drawing.Size(62, 13);
             this.label13.TabIndex = 26;
             this.label13.Text = "Destructeur";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1281,10 +1283,10 @@ namespace OgameFarmingInterface
             // 
             this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point( 100, 388 );
-            this.label11.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label11.Location = new System.Drawing.Point(67, 252);
+            this.label11.Margin = new System.Windows.Forms.Padding(2);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size( 91, 20 );
+            this.label11.Size = new System.Drawing.Size(60, 13);
             this.label11.TabIndex = 24;
             this.label11.Text = "Bombardier";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1293,10 +1295,10 @@ namespace OgameFarmingInterface
             // 
             this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point( 39, 354 );
-            this.label10.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label10.Location = new System.Drawing.Point(26, 230);
+            this.label10.Margin = new System.Windows.Forms.Padding(2);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size( 155, 20 );
+            this.label10.Size = new System.Drawing.Size(104, 13);
             this.label10.TabIndex = 23;
             this.label10.Text = "Sonde d\'espionnage";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1305,10 +1307,10 @@ namespace OgameFarmingInterface
             // 
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point( 112, 322 );
-            this.label9.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label9.Location = new System.Drawing.Point(75, 209);
+            this.label9.Margin = new System.Windows.Forms.Padding(2);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size( 79, 20 );
+            this.label9.Size = new System.Drawing.Size(55, 13);
             this.label9.TabIndex = 22;
             this.label9.Text = "Recycleur";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1317,10 +1319,10 @@ namespace OgameFarmingInterface
             // 
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point( 9, 291 );
-            this.label8.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label8.Location = new System.Drawing.Point(6, 189);
+            this.label8.Margin = new System.Windows.Forms.Padding(2);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size( 185, 20 );
+            this.label8.Size = new System.Drawing.Size(124, 13);
             this.label8.TabIndex = 21;
             this.label8.Text = "Vaisseau de colonisation";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1329,10 +1331,10 @@ namespace OgameFarmingInterface
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point( 40, 258 );
-            this.label7.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label7.Location = new System.Drawing.Point(27, 168);
+            this.label7.Margin = new System.Windows.Forms.Padding(2);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size( 151, 20 );
+            this.label7.Size = new System.Drawing.Size(101, 13);
             this.label7.TabIndex = 20;
             this.label7.Text = "Vaisseau de bataille";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1341,10 +1343,10 @@ namespace OgameFarmingInterface
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point( 124, 226 );
-            this.label6.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label6.Location = new System.Drawing.Point(83, 147);
+            this.label6.Margin = new System.Windows.Forms.Padding(2);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size( 68, 20 );
+            this.label6.Size = new System.Drawing.Size(45, 13);
             this.label6.TabIndex = 19;
             this.label6.Text = "Croiseur";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1353,10 +1355,10 @@ namespace OgameFarmingInterface
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point( 76, 194 );
-            this.label5.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label5.Location = new System.Drawing.Point(51, 126);
+            this.label5.Margin = new System.Windows.Forms.Padding(2);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size( 116, 20 );
+            this.label5.Size = new System.Drawing.Size(77, 13);
             this.label5.TabIndex = 18;
             this.label5.Text = "Chasseur lourd";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1365,10 +1367,10 @@ namespace OgameFarmingInterface
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point( 76, 162 );
-            this.label4.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label4.Location = new System.Drawing.Point(51, 105);
+            this.label4.Margin = new System.Windows.Forms.Padding(2);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size( 116, 20 );
+            this.label4.Size = new System.Drawing.Size(77, 13);
             this.label4.TabIndex = 17;
             this.label4.Text = "Chasseur léger";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1377,10 +1379,10 @@ namespace OgameFarmingInterface
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point( 46, 129 );
-            this.label3.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label3.Location = new System.Drawing.Point(31, 84);
+            this.label3.Margin = new System.Windows.Forms.Padding(2);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size( 145, 20 );
+            this.label3.Size = new System.Drawing.Size(95, 13);
             this.label3.TabIndex = 16;
             this.label3.Text = "Grand transporteur";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1389,10 +1391,10 @@ namespace OgameFarmingInterface
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point( 62, 98 );
-            this.label2.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label2.Location = new System.Drawing.Point(41, 64);
+            this.label2.Margin = new System.Windows.Forms.Padding(2);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size( 132, 20 );
+            this.label2.Size = new System.Drawing.Size(87, 13);
             this.label2.TabIndex = 15;
             this.label2.Text = "Petit transporteur";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1401,10 +1403,10 @@ namespace OgameFarmingInterface
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point( 88, 63 );
-            this.label1.Margin = new System.Windows.Forms.Padding( 3 );
+            this.label1.Location = new System.Drawing.Point(59, 41);
+            this.label1.Margin = new System.Windows.Forms.Padding(2);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size( 105, 20 );
+            this.label1.Size = new System.Drawing.Size(70, 13);
             this.label1.TabIndex = 14;
             this.label1.Text = "Coordonnées";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1412,158 +1414,172 @@ namespace OgameFarmingInterface
             // textBoxFlotteAttaquanteCoordonnees
             // 
             this.textBoxFlotteAttaquanteCoordonnees.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteCoordonnees.Location = new System.Drawing.Point( 200, 60 );
+            this.textBoxFlotteAttaquanteCoordonnees.Location = new System.Drawing.Point(133, 39);
+            this.textBoxFlotteAttaquanteCoordonnees.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteCoordonnees.Name = "textBoxFlotteAttaquanteCoordonnees";
-            this.textBoxFlotteAttaquanteCoordonnees.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteCoordonnees.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteCoordonnees.TabIndex = 13;
             // 
             // textBoxFlotteAttaquanteEDLM
             // 
             this.textBoxFlotteAttaquanteEDLM.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteEDLM.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "EtoilesDeLaMort", true ) );
-            this.textBoxFlotteAttaquanteEDLM.Location = new System.Drawing.Point( 200, 448 );
+            this.textBoxFlotteAttaquanteEDLM.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "EtoilesDeLaMort", true));
+            this.textBoxFlotteAttaquanteEDLM.Location = new System.Drawing.Point(133, 291);
+            this.textBoxFlotteAttaquanteEDLM.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteEDLM.Name = "textBoxFlotteAttaquanteEDLM";
-            this.textBoxFlotteAttaquanteEDLM.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteEDLM.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteEDLM.TabIndex = 12;
-            this.textBoxFlotteAttaquanteEDLM.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteEDLM.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteDES
             // 
             this.textBoxFlotteAttaquanteDES.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteDES.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "Destructeurs", true ) );
-            this.textBoxFlotteAttaquanteDES.Location = new System.Drawing.Point( 200, 415 );
+            this.textBoxFlotteAttaquanteDES.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "Destructeurs", true));
+            this.textBoxFlotteAttaquanteDES.Location = new System.Drawing.Point(133, 270);
+            this.textBoxFlotteAttaquanteDES.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteDES.Name = "textBoxFlotteAttaquanteDES";
-            this.textBoxFlotteAttaquanteDES.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteDES.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteDES.TabIndex = 11;
-            this.textBoxFlotteAttaquanteDES.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteDES.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteB
             // 
             this.textBoxFlotteAttaquanteB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteB.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "Bombardiers", true ) );
-            this.textBoxFlotteAttaquanteB.Location = new System.Drawing.Point( 200, 383 );
+            this.textBoxFlotteAttaquanteB.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "Bombardiers", true));
+            this.textBoxFlotteAttaquanteB.Location = new System.Drawing.Point(133, 249);
+            this.textBoxFlotteAttaquanteB.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteB.Name = "textBoxFlotteAttaquanteB";
-            this.textBoxFlotteAttaquanteB.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteB.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteB.TabIndex = 9;
-            this.textBoxFlotteAttaquanteB.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteB.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteSondes
             // 
             this.textBoxFlotteAttaquanteSondes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteSondes.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "SondesDEspionnage", true ) );
-            this.textBoxFlotteAttaquanteSondes.Location = new System.Drawing.Point( 200, 351 );
+            this.textBoxFlotteAttaquanteSondes.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "SondesDEspionnage", true));
+            this.textBoxFlotteAttaquanteSondes.Location = new System.Drawing.Point(133, 228);
+            this.textBoxFlotteAttaquanteSondes.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteSondes.Name = "textBoxFlotteAttaquanteSondes";
-            this.textBoxFlotteAttaquanteSondes.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteSondes.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteSondes.TabIndex = 8;
-            this.textBoxFlotteAttaquanteSondes.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteSondes.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteRC
             // 
             this.textBoxFlotteAttaquanteRC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteRC.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "Recycleurs", true ) );
-            this.textBoxFlotteAttaquanteRC.Location = new System.Drawing.Point( 200, 318 );
+            this.textBoxFlotteAttaquanteRC.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "Recycleurs", true));
+            this.textBoxFlotteAttaquanteRC.Location = new System.Drawing.Point(133, 207);
+            this.textBoxFlotteAttaquanteRC.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteRC.Name = "textBoxFlotteAttaquanteRC";
-            this.textBoxFlotteAttaquanteRC.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteRC.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteRC.TabIndex = 7;
-            this.textBoxFlotteAttaquanteRC.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteRC.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteVC
             // 
             this.textBoxFlotteAttaquanteVC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteVC.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "VaisseauxDeColonisation", true ) );
-            this.textBoxFlotteAttaquanteVC.Location = new System.Drawing.Point( 200, 288 );
+            this.textBoxFlotteAttaquanteVC.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "VaisseauxDeColonisation", true));
+            this.textBoxFlotteAttaquanteVC.Location = new System.Drawing.Point(133, 187);
+            this.textBoxFlotteAttaquanteVC.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteVC.Name = "textBoxFlotteAttaquanteVC";
-            this.textBoxFlotteAttaquanteVC.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteVC.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteVC.TabIndex = 6;
-            this.textBoxFlotteAttaquanteVC.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteVC.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteVB
             // 
             this.textBoxFlotteAttaquanteVB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteVB.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "VaisseauxDeBataille", true ) );
-            this.textBoxFlotteAttaquanteVB.Location = new System.Drawing.Point( 200, 255 );
+            this.textBoxFlotteAttaquanteVB.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "VaisseauxDeBataille", true));
+            this.textBoxFlotteAttaquanteVB.Location = new System.Drawing.Point(133, 166);
+            this.textBoxFlotteAttaquanteVB.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteVB.Name = "textBoxFlotteAttaquanteVB";
-            this.textBoxFlotteAttaquanteVB.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteVB.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteVB.TabIndex = 5;
-            this.textBoxFlotteAttaquanteVB.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteVB.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteCR
             // 
             this.textBoxFlotteAttaquanteCR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteCR.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "Croiseurs", true ) );
-            this.textBoxFlotteAttaquanteCR.Location = new System.Drawing.Point( 200, 223 );
+            this.textBoxFlotteAttaquanteCR.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "Croiseurs", true));
+            this.textBoxFlotteAttaquanteCR.Location = new System.Drawing.Point(133, 145);
+            this.textBoxFlotteAttaquanteCR.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteCR.Name = "textBoxFlotteAttaquanteCR";
-            this.textBoxFlotteAttaquanteCR.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteCR.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteCR.TabIndex = 4;
-            this.textBoxFlotteAttaquanteCR.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteCR.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteCL
             // 
             this.textBoxFlotteAttaquanteCL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteCL.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "ChasseursLourds", true ) );
-            this.textBoxFlotteAttaquanteCL.Location = new System.Drawing.Point( 200, 191 );
+            this.textBoxFlotteAttaquanteCL.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "ChasseursLourds", true));
+            this.textBoxFlotteAttaquanteCL.Location = new System.Drawing.Point(133, 124);
+            this.textBoxFlotteAttaquanteCL.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteCL.Name = "textBoxFlotteAttaquanteCL";
-            this.textBoxFlotteAttaquanteCL.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteCL.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteCL.TabIndex = 3;
-            this.textBoxFlotteAttaquanteCL.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteCL.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteCle
             // 
             this.textBoxFlotteAttaquanteCle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteCle.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "ChasseursLegers", true ) );
-            this.textBoxFlotteAttaquanteCle.Location = new System.Drawing.Point( 200, 158 );
+            this.textBoxFlotteAttaquanteCle.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "ChasseursLegers", true));
+            this.textBoxFlotteAttaquanteCle.Location = new System.Drawing.Point(133, 103);
+            this.textBoxFlotteAttaquanteCle.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteCle.Name = "textBoxFlotteAttaquanteCle";
-            this.textBoxFlotteAttaquanteCle.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteCle.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteCle.TabIndex = 2;
-            this.textBoxFlotteAttaquanteCle.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteCle.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquanteGT
             // 
             this.textBoxFlotteAttaquanteGT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquanteGT.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "GrandTransporteurs", true ) );
-            this.textBoxFlotteAttaquanteGT.Location = new System.Drawing.Point( 200, 128 );
+            this.textBoxFlotteAttaquanteGT.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "GrandTransporteurs", true));
+            this.textBoxFlotteAttaquanteGT.Location = new System.Drawing.Point(133, 83);
+            this.textBoxFlotteAttaquanteGT.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquanteGT.Name = "textBoxFlotteAttaquanteGT";
-            this.textBoxFlotteAttaquanteGT.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquanteGT.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquanteGT.TabIndex = 1;
-            this.textBoxFlotteAttaquanteGT.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquanteGT.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxFlotteAttaquantePT
             // 
             this.textBoxFlotteAttaquantePT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxFlotteAttaquantePT.DataBindings.Add( new System.Windows.Forms.Binding( "Text", this.bindingSourceParametresFlotteAttaquante, "PetitsTransporteurs", true ) );
-            this.textBoxFlotteAttaquantePT.Location = new System.Drawing.Point( 200, 95 );
+            this.textBoxFlotteAttaquantePT.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSourceParametresFlotteAttaquante, "PetitsTransporteurs", true));
+            this.textBoxFlotteAttaquantePT.Location = new System.Drawing.Point(133, 62);
+            this.textBoxFlotteAttaquantePT.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFlotteAttaquantePT.Name = "textBoxFlotteAttaquantePT";
-            this.textBoxFlotteAttaquantePT.Size = new System.Drawing.Size( 73, 26 );
+            this.textBoxFlotteAttaquantePT.Size = new System.Drawing.Size(50, 20);
             this.textBoxFlotteAttaquantePT.TabIndex = 0;
-            this.textBoxFlotteAttaquantePT.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxFlotteAttaquantePT.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // tabPageUnivers
             // 
-            this.tabPageUnivers.Controls.Add( this.groupBoxRecherche );
-            this.tabPageUnivers.Controls.Add( this.groupBoxUnivers );
-            this.tabPageUnivers.Controls.Add( this.groupBoxVueSysteme );
-            this.tabPageUnivers.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPageUnivers.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPageUnivers.Controls.Add(this.groupBoxRecherche);
+            this.tabPageUnivers.Controls.Add(this.groupBoxUnivers);
+            this.tabPageUnivers.Controls.Add(this.groupBoxVueSysteme);
+            this.tabPageUnivers.Location = new System.Drawing.Point(4, 22);
             this.tabPageUnivers.Name = "tabPageUnivers";
-            this.tabPageUnivers.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPageUnivers.Size = new System.Drawing.Size( 1673, 1008 );
+            this.tabPageUnivers.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageUnivers.Size = new System.Drawing.Size(1113, 634);
             this.tabPageUnivers.TabIndex = 3;
             this.tabPageUnivers.Text = "Univers";
             this.tabPageUnivers.UseVisualStyleBackColor = true;
             // 
             // groupBoxRecherche
             // 
-            this.groupBoxRecherche.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBoxRecherche.Controls.Add( this.buttonCopierResultatRecherche );
-            this.groupBoxRecherche.Controls.Add( this.listViewResultatsDeRecherche );
-            this.groupBoxRecherche.Controls.Add( this.textBoxNomARechercher );
-            this.groupBoxRecherche.Controls.Add( this.radioButtonChercheJoueur );
-            this.groupBoxRecherche.Controls.Add( this.radioButtonChercheAlliance );
-            this.groupBoxRecherche.Controls.Add( this.buttonLancerLaRecherche );
-            this.groupBoxRecherche.Location = new System.Drawing.Point( 15, 417 );
+            this.groupBoxRecherche.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBoxRecherche.Controls.Add(this.buttonCopierResultatRecherche);
+            this.groupBoxRecherche.Controls.Add(this.listViewResultatsDeRecherche);
+            this.groupBoxRecherche.Controls.Add(this.textBoxNomARechercher);
+            this.groupBoxRecherche.Controls.Add(this.radioButtonChercheJoueur);
+            this.groupBoxRecherche.Controls.Add(this.radioButtonChercheAlliance);
+            this.groupBoxRecherche.Controls.Add(this.buttonLancerLaRecherche);
+            this.groupBoxRecherche.Location = new System.Drawing.Point(10, 271);
+            this.groupBoxRecherche.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxRecherche.Name = "groupBoxRecherche";
-            this.groupBoxRecherche.Size = new System.Drawing.Size( 644, 566 );
+            this.groupBoxRecherche.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBoxRecherche.Size = new System.Drawing.Size(429, 355);
             this.groupBoxRecherche.TabIndex = 4;
             this.groupBoxRecherche.TabStop = false;
             this.groupBoxRecherche.Text = "Recherches";
@@ -1572,33 +1588,35 @@ namespace OgameFarmingInterface
             // 
             this.buttonCopierResultatRecherche.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCopierResultatRecherche.Enabled = false;
-            this.buttonCopierResultatRecherche.Location = new System.Drawing.Point( 495, 515 );
+            this.buttonCopierResultatRecherche.Location = new System.Drawing.Point(330, 322);
+            this.buttonCopierResultatRecherche.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCopierResultatRecherche.Name = "buttonCopierResultatRecherche";
-            this.buttonCopierResultatRecherche.Size = new System.Drawing.Size( 129, 34 );
+            this.buttonCopierResultatRecherche.Size = new System.Drawing.Size(86, 22);
             this.buttonCopierResultatRecherche.TabIndex = 5;
             this.buttonCopierResultatRecherche.Text = "Copier";
             this.buttonCopierResultatRecherche.UseVisualStyleBackColor = true;
-            this.buttonCopierResultatRecherche.Click += new System.EventHandler( this.buttonCopierResultatRecherche_Click );
+            this.buttonCopierResultatRecherche.Click += new System.EventHandler(this.buttonCopierResultatRecherche_Click);
             // 
             // listViewResultatsDeRecherche
             // 
-            this.listViewResultatsDeRecherche.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.listViewResultatsDeRecherche.Columns.AddRange( new System.Windows.Forms.ColumnHeader[] {
+            this.listViewResultatsDeRecherche.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listViewResultatsDeRecherche.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeaderResultatRechercheCoordonnees,
             this.columnHeaderResultatRechercheNom,
             this.columnHeaderResultatRechercheAlliance,
-            this.columnHeaderResultatRecherchePresenceLune} );
-            this.listViewResultatsDeRecherche.Location = new System.Drawing.Point( 16, 82 );
+            this.columnHeaderResultatRecherchePresenceLune});
+            this.listViewResultatsDeRecherche.Location = new System.Drawing.Point(11, 53);
+            this.listViewResultatsDeRecherche.Margin = new System.Windows.Forms.Padding(2);
             this.listViewResultatsDeRecherche.Name = "listViewResultatsDeRecherche";
-            this.listViewResultatsDeRecherche.Size = new System.Drawing.Size( 608, 427 );
+            this.listViewResultatsDeRecherche.Size = new System.Drawing.Size(407, 266);
             this.listViewResultatsDeRecherche.TabIndex = 4;
             this.listViewResultatsDeRecherche.UseCompatibleStateImageBehavior = false;
             this.listViewResultatsDeRecherche.View = System.Windows.Forms.View.Details;
-            this.listViewResultatsDeRecherche.SelectedIndexChanged += new System.EventHandler( this.listViewResultatsDeRecherche_SelectedIndexChanged );
-            this.listViewResultatsDeRecherche.DoubleClick += new System.EventHandler( this.listViewResultatsDeRecherche_DoubleClick );
-            this.listViewResultatsDeRecherche.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler( this.listViewResultatsDeRecherche_ColumnClick );
+            this.listViewResultatsDeRecherche.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listViewResultatsDeRecherche_ColumnClick);
+            this.listViewResultatsDeRecherche.SelectedIndexChanged += new System.EventHandler(this.listViewResultatsDeRecherche_SelectedIndexChanged);
+            this.listViewResultatsDeRecherche.DoubleClick += new System.EventHandler(this.listViewResultatsDeRecherche_DoubleClick);
             // 
             // columnHeaderResultatRechercheCoordonnees
             // 
@@ -1621,259 +1639,248 @@ namespace OgameFarmingInterface
             // 
             // textBoxNomARechercher
             // 
-            this.textBoxNomARechercher.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxNomARechercher.Location = new System.Drawing.Point( 16, 32 );
+            this.textBoxNomARechercher.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxNomARechercher.Location = new System.Drawing.Point(11, 21);
+            this.textBoxNomARechercher.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNomARechercher.Name = "textBoxNomARechercher";
-            this.textBoxNomARechercher.Size = new System.Drawing.Size( 286, 26 );
+            this.textBoxNomARechercher.Size = new System.Drawing.Size(192, 20);
             this.textBoxNomARechercher.TabIndex = 3;
-            this.textBoxNomARechercher.TextChanged += new System.EventHandler( this.textBoxNomARechercher_TextChanged );
-            this.textBoxNomARechercher.KeyDown += new System.Windows.Forms.KeyEventHandler( this.textBoxNomARechercher_KeyDown );
+            this.textBoxNomARechercher.TextChanged += new System.EventHandler(this.textBoxNomARechercher_TextChanged);
+            this.textBoxNomARechercher.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxNomARechercher_KeyDown);
             // 
             // radioButtonChercheJoueur
             // 
             this.radioButtonChercheJoueur.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButtonChercheJoueur.AutoSize = true;
-            this.radioButtonChercheJoueur.Location = new System.Drawing.Point( 408, 34 );
+            this.radioButtonChercheJoueur.Location = new System.Drawing.Point(268, 22);
+            this.radioButtonChercheJoueur.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonChercheJoueur.Name = "radioButtonChercheJoueur";
-            this.radioButtonChercheJoueur.Size = new System.Drawing.Size( 79, 24 );
+            this.radioButtonChercheJoueur.Size = new System.Drawing.Size(57, 17);
             this.radioButtonChercheJoueur.TabIndex = 2;
             this.radioButtonChercheJoueur.Text = "Joueur";
             this.radioButtonChercheJoueur.UseVisualStyleBackColor = true;
-            this.radioButtonChercheJoueur.CheckedChanged += new System.EventHandler( this.radioButtonChercheJoueur_CheckedChanged );
+            this.radioButtonChercheJoueur.CheckedChanged += new System.EventHandler(this.radioButtonChercheJoueur_CheckedChanged);
             // 
             // radioButtonChercheAlliance
             // 
             this.radioButtonChercheAlliance.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButtonChercheAlliance.AutoSize = true;
             this.radioButtonChercheAlliance.Checked = true;
-            this.radioButtonChercheAlliance.Location = new System.Drawing.Point( 319, 34 );
+            this.radioButtonChercheAlliance.Location = new System.Drawing.Point(207, 22);
+            this.radioButtonChercheAlliance.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonChercheAlliance.Name = "radioButtonChercheAlliance";
-            this.radioButtonChercheAlliance.Size = new System.Drawing.Size( 85, 24 );
+            this.radioButtonChercheAlliance.Size = new System.Drawing.Size(62, 17);
             this.radioButtonChercheAlliance.TabIndex = 1;
             this.radioButtonChercheAlliance.TabStop = true;
             this.radioButtonChercheAlliance.Text = "Alliance";
             this.radioButtonChercheAlliance.UseVisualStyleBackColor = true;
-            this.radioButtonChercheAlliance.CheckedChanged += new System.EventHandler( this.radioButtonChercheAlliance_CheckedChanged );
+            this.radioButtonChercheAlliance.CheckedChanged += new System.EventHandler(this.radioButtonChercheAlliance_CheckedChanged);
             // 
             // buttonLancerLaRecherche
             // 
             this.buttonLancerLaRecherche.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonLancerLaRecherche.Location = new System.Drawing.Point( 495, 29 );
+            this.buttonLancerLaRecherche.Location = new System.Drawing.Point(330, 19);
+            this.buttonLancerLaRecherche.Margin = new System.Windows.Forms.Padding(2);
             this.buttonLancerLaRecherche.Name = "buttonLancerLaRecherche";
-            this.buttonLancerLaRecherche.Size = new System.Drawing.Size( 129, 34 );
+            this.buttonLancerLaRecherche.Size = new System.Drawing.Size(86, 22);
             this.buttonLancerLaRecherche.TabIndex = 0;
             this.buttonLancerLaRecherche.Text = "Cherche";
             this.buttonLancerLaRecherche.UseVisualStyleBackColor = true;
-            this.buttonLancerLaRecherche.Click += new System.EventHandler( this.buttonLancerLaRecherche_Click );
+            this.buttonLancerLaRecherche.Click += new System.EventHandler(this.buttonLancerLaRecherche_Click);
             // 
             // groupBoxUnivers
             // 
-            this.groupBoxUnivers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBoxUnivers.Controls.Add( this.listViewUnivers );
-            this.groupBoxUnivers.Controls.Add( this.pictureBox4 );
-            this.groupBoxUnivers.Controls.Add( this.tabControlUnivers );
-            this.groupBoxUnivers.Location = new System.Drawing.Point( 676, 9 );
-            this.groupBoxUnivers.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.groupBoxUnivers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBoxUnivers.Controls.Add(this.listViewUnivers);
+            this.groupBoxUnivers.Controls.Add(this.pictureBox4);
+            this.groupBoxUnivers.Controls.Add(this.tabControlUnivers);
+            this.groupBoxUnivers.Location = new System.Drawing.Point(451, 6);
             this.groupBoxUnivers.Name = "groupBoxUnivers";
-            this.groupBoxUnivers.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.groupBoxUnivers.Size = new System.Drawing.Size( 978, 974 );
+            this.groupBoxUnivers.Size = new System.Drawing.Size(652, 621);
             this.groupBoxUnivers.TabIndex = 3;
             this.groupBoxUnivers.TabStop = false;
             this.groupBoxUnivers.Text = "Univers";
             // 
             // listViewUnivers
             // 
-            this.listViewUnivers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listViewUnivers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listViewUnivers.FullRowSelect = true;
-            this.listViewUnivers.Location = new System.Drawing.Point( 16, 60 );
-            this.listViewUnivers.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.listViewUnivers.Location = new System.Drawing.Point(11, 39);
             this.listViewUnivers.MultiSelect = false;
             this.listViewUnivers.Name = "listViewUnivers";
-            this.listViewUnivers.Size = new System.Drawing.Size( 942, 896 );
+            this.listViewUnivers.Size = new System.Drawing.Size(629, 571);
             this.listViewUnivers.TabIndex = 2;
             this.listViewUnivers.UseCompatibleStateImageBehavior = false;
             this.listViewUnivers.View = System.Windows.Forms.View.List;
             this.listViewUnivers.VirtualListSize = 499;
             this.listViewUnivers.VirtualMode = true;
-            this.listViewUnivers.SelectedIndexChanged += new System.EventHandler( this.listViewUnivers_SelectedIndexChanged );
-            this.listViewUnivers.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler( this.listViewUnivers_RetrieveVirtualItem );
+            this.listViewUnivers.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler(this.listViewUnivers_RetrieveVirtualItem);
+            this.listViewUnivers.SelectedIndexChanged += new System.EventHandler(this.listViewUnivers_SelectedIndexChanged);
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::OgameFarmingInterface.Properties.Resources.Galaxie32;
-            this.pictureBox4.Location = new System.Drawing.Point( 16, 27 );
+            this.pictureBox4.Location = new System.Drawing.Point(11, 18);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size( 28, 27 );
+            this.pictureBox4.Size = new System.Drawing.Size(19, 18);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
             // tabControlUnivers
             // 
-            this.tabControlUnivers.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControlUnivers.Controls.Add( this.tabPage1 );
-            this.tabControlUnivers.Controls.Add( this.tabPage2 );
-            this.tabControlUnivers.Controls.Add( this.tabPage3 );
-            this.tabControlUnivers.Controls.Add( this.tabPage4 );
-            this.tabControlUnivers.Controls.Add( this.tabPage5 );
-            this.tabControlUnivers.Controls.Add( this.tabPage6 );
-            this.tabControlUnivers.Controls.Add( this.tabPage7 );
-            this.tabControlUnivers.Controls.Add( this.tabPage8 );
-            this.tabControlUnivers.Controls.Add( this.tabPage9 );
-            this.tabControlUnivers.Location = new System.Drawing.Point( 51, 33 );
-            this.tabControlUnivers.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabControlUnivers.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControlUnivers.Controls.Add(this.tabPage1);
+            this.tabControlUnivers.Controls.Add(this.tabPage2);
+            this.tabControlUnivers.Controls.Add(this.tabPage3);
+            this.tabControlUnivers.Controls.Add(this.tabPage4);
+            this.tabControlUnivers.Controls.Add(this.tabPage5);
+            this.tabControlUnivers.Controls.Add(this.tabPage6);
+            this.tabControlUnivers.Controls.Add(this.tabPage7);
+            this.tabControlUnivers.Controls.Add(this.tabPage8);
+            this.tabControlUnivers.Controls.Add(this.tabPage9);
+            this.tabControlUnivers.Location = new System.Drawing.Point(34, 21);
             this.tabControlUnivers.Name = "tabControlUnivers";
             this.tabControlUnivers.SelectedIndex = 0;
-            this.tabControlUnivers.Size = new System.Drawing.Size( 909, 28 );
+            this.tabControlUnivers.Size = new System.Drawing.Size(606, 18);
             this.tabControlUnivers.TabIndex = 0;
-            this.tabControlUnivers.Selected += new System.Windows.Forms.TabControlEventHandler( this.tabControlUnivers_Selected );
+            this.tabControlUnivers.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabControlUnivers_Selected);
             // 
             // tabPage1
             // 
-            this.tabPage1.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPage1.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPage1.Size = new System.Drawing.Size( 901, 0 );
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(598, 0);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Galaxie 1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
-            this.tabPage2.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPage2.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPage2.Size = new System.Drawing.Size( 901, 0 );
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(598, 0);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Galaxie 2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tabPage3
             // 
-            this.tabPage3.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPage3.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPage3.Size = new System.Drawing.Size( 901, 0 );
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(598, 0);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Galaxie 3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // tabPage4
             // 
-            this.tabPage4.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPage4.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPage4.Size = new System.Drawing.Size( 901, 0 );
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(598, 0);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Galaxie 4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // tabPage5
             // 
-            this.tabPage5.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPage5.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPage5.Size = new System.Drawing.Size( 901, 0 );
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(598, 0);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Galaxie 5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // tabPage6
             // 
-            this.tabPage6.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPage6.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPage6.Size = new System.Drawing.Size( 901, 0 );
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(598, 0);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Galaxie 6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // tabPage7
             // 
-            this.tabPage7.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPage7.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPage7.Size = new System.Drawing.Size( 901, 0 );
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(598, 0);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Galaxie 7";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // tabPage8
             // 
-            this.tabPage8.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPage8.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPage8.Size = new System.Drawing.Size( 901, 0 );
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(598, 0);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Galaxie 8";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
             // tabPage9
             // 
-            this.tabPage9.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPage9.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPage9.Size = new System.Drawing.Size( 901, 0 );
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(598, 0);
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Galaxie 9";
             this.tabPage9.UseVisualStyleBackColor = true;
             // 
             // groupBoxVueSysteme
             // 
-            this.groupBoxVueSysteme.Controls.Add( this.listViewSysteme );
-            this.groupBoxVueSysteme.Location = new System.Drawing.Point( 15, 9 );
-            this.groupBoxVueSysteme.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.groupBoxVueSysteme.Controls.Add(this.listViewSysteme);
+            this.groupBoxVueSysteme.Location = new System.Drawing.Point(10, 6);
             this.groupBoxVueSysteme.Name = "groupBoxVueSysteme";
-            this.groupBoxVueSysteme.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.groupBoxVueSysteme.Size = new System.Drawing.Size( 644, 400 );
+            this.groupBoxVueSysteme.Size = new System.Drawing.Size(429, 260);
             this.groupBoxVueSysteme.TabIndex = 1;
             this.groupBoxVueSysteme.TabStop = false;
             this.groupBoxVueSysteme.Text = "Système";
             // 
             // listViewSysteme
             // 
-            this.listViewSysteme.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listViewSysteme.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listViewSysteme.BackColor = System.Drawing.SystemColors.Window;
-            this.listViewSysteme.Columns.AddRange( new System.Windows.Forms.ColumnHeader[] {
+            this.listViewSysteme.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Position,
             this.Lune,
             this.Rapport,
             this.Date,
             this.Nom,
             this.Joueur,
-            this.Alliance} );
+            this.Alliance});
             this.listViewSysteme.ContextMenuStrip = this.contextMenuStripSysteme;
             this.listViewSysteme.ForeColor = System.Drawing.SystemColors.WindowText;
             this.listViewSysteme.FullRowSelect = true;
-            this.listViewSysteme.Location = new System.Drawing.Point( 16, 29 );
-            this.listViewSysteme.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.listViewSysteme.Location = new System.Drawing.Point(11, 19);
             this.listViewSysteme.Name = "listViewSysteme";
-            this.listViewSysteme.Size = new System.Drawing.Size( 608, 350 );
+            this.listViewSysteme.Size = new System.Drawing.Size(407, 229);
             this.listViewSysteme.TabIndex = 0;
             this.listViewSysteme.UseCompatibleStateImageBehavior = false;
             this.listViewSysteme.View = System.Windows.Forms.View.Details;
             this.listViewSysteme.VirtualListSize = 15;
             this.listViewSysteme.VirtualMode = true;
-            this.listViewSysteme.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler( this.listViewSysteme_MouseDoubleClick );
-            this.listViewSysteme.SelectedIndexChanged += new System.EventHandler( this.listViewSysteme_SelectedIndexChanged );
-            this.listViewSysteme.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler( this.listViewSysteme_RetrieveVirtualItem );
+            this.listViewSysteme.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler(this.listViewSysteme_RetrieveVirtualItem);
+            this.listViewSysteme.SelectedIndexChanged += new System.EventHandler(this.listViewSysteme_SelectedIndexChanged);
+            this.listViewSysteme.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listViewSysteme_MouseDoubleClick);
             // 
             // Position
             // 
@@ -1915,172 +1922,185 @@ namespace OgameFarmingInterface
             // 
             // contextMenuStripSysteme
             // 
-            this.contextMenuStripSysteme.Items.AddRange( new System.Windows.Forms.ToolStripItem[] {
+            this.contextMenuStripSysteme.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.simulerUnCombatToolStripMenuSystemeItem,
-            this.afficherLeRapportToolStripMenuSystemeItem} );
+            this.afficherLeRapportToolStripMenuSystemeItem});
             this.contextMenuStripSysteme.Name = "contextMenuStripSysteme";
-            this.contextMenuStripSysteme.Size = new System.Drawing.Size( 236, 56 );
+            this.contextMenuStripSysteme.Size = new System.Drawing.Size(176, 48);
             // 
             // simulerUnCombatToolStripMenuSystemeItem
             // 
             this.simulerUnCombatToolStripMenuSystemeItem.Image = global::OgameFarmingInterface.Properties.Resources.Engrenage16;
             this.simulerUnCombatToolStripMenuSystemeItem.Name = "simulerUnCombatToolStripMenuSystemeItem";
-            this.simulerUnCombatToolStripMenuSystemeItem.Size = new System.Drawing.Size( 235, 26 );
+            this.simulerUnCombatToolStripMenuSystemeItem.Size = new System.Drawing.Size(175, 22);
             this.simulerUnCombatToolStripMenuSystemeItem.Text = "Simuler un combat";
-            this.simulerUnCombatToolStripMenuSystemeItem.Click += new System.EventHandler( this.simulerUnCombatToolStripMenuSystemeItem_Click );
+            this.simulerUnCombatToolStripMenuSystemeItem.Click += new System.EventHandler(this.simulerUnCombatToolStripMenuSystemeItem_Click);
             // 
             // afficherLeRapportToolStripMenuSystemeItem
             // 
             this.afficherLeRapportToolStripMenuSystemeItem.Image = global::OgameFarmingInterface.Properties.Resources.Loupe;
             this.afficherLeRapportToolStripMenuSystemeItem.Name = "afficherLeRapportToolStripMenuSystemeItem";
-            this.afficherLeRapportToolStripMenuSystemeItem.Size = new System.Drawing.Size( 235, 26 );
+            this.afficherLeRapportToolStripMenuSystemeItem.Size = new System.Drawing.Size(175, 22);
             this.afficherLeRapportToolStripMenuSystemeItem.Text = "Afficher le rapport";
-            this.afficherLeRapportToolStripMenuSystemeItem.Click += new System.EventHandler( this.afficherLeRapportToolStripMenuSystemeItem_Click );
+            this.afficherLeRapportToolStripMenuSystemeItem.Click += new System.EventHandler(this.afficherLeRapportToolStripMenuSystemeItem_Click);
             // 
             // tabPageClassement
             // 
-            this.tabPageClassement.Controls.Add( this.label38 );
-            this.tabPageClassement.Location = new System.Drawing.Point( 4, 29 );
+            this.tabPageClassement.Controls.Add(this.label38);
+            this.tabPageClassement.Location = new System.Drawing.Point(4, 22);
+            this.tabPageClassement.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageClassement.Name = "tabPageClassement";
-            this.tabPageClassement.Size = new System.Drawing.Size( 1673, 1008 );
+            this.tabPageClassement.Size = new System.Drawing.Size(1113, 634);
             this.tabPageClassement.TabIndex = 5;
             this.tabPageClassement.Text = "Classement";
             this.tabPageClassement.UseVisualStyleBackColor = true;
             // 
             // label38
             // 
-            this.label38.Location = new System.Drawing.Point( 60, 35 );
+            this.label38.Location = new System.Drawing.Point(40, 23);
+            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size( 514, 103 );
+            this.label38.Size = new System.Drawing.Size(343, 67);
             this.label38.TabIndex = 0;
             this.label38.Text = "Et non, pas de bol, ce n\'est pas encore implémenté :P !";
             // 
             // tabPageParametres
             // 
-            this.tabPageParametres.Controls.Add( this.groupBoxMiseAJour );
-            this.tabPageParametres.Controls.Add( this.checkBoxEnregistrerEnQuittant );
-            this.tabPageParametres.Controls.Add( this.groupBoxServeur );
-            this.tabPageParametres.Controls.Add( this.groupBoxParamsSimuEnMasse );
-            this.tabPageParametres.Controls.Add( this.groupBoxAmis );
-            this.tabPageParametres.Controls.Add( this.groupBoxColonnesAffichees );
-            this.tabPageParametres.Location = new System.Drawing.Point( 4, 29 );
-            this.tabPageParametres.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.tabPageParametres.Controls.Add(this.groupBoxMiseAJour);
+            this.tabPageParametres.Controls.Add(this.checkBoxEnregistrerEnQuittant);
+            this.tabPageParametres.Controls.Add(this.groupBoxServeur);
+            this.tabPageParametres.Controls.Add(this.groupBoxParamsSimuEnMasse);
+            this.tabPageParametres.Controls.Add(this.groupBoxAmis);
+            this.tabPageParametres.Controls.Add(this.groupBoxColonnesAffichees);
+            this.tabPageParametres.Location = new System.Drawing.Point(4, 22);
             this.tabPageParametres.Name = "tabPageParametres";
-            this.tabPageParametres.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.tabPageParametres.Size = new System.Drawing.Size( 1673, 1008 );
+            this.tabPageParametres.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageParametres.Size = new System.Drawing.Size(1113, 634);
             this.tabPageParametres.TabIndex = 4;
             this.tabPageParametres.Text = "Paramètres";
             this.tabPageParametres.UseVisualStyleBackColor = true;
             // 
             // groupBoxMiseAJour
             // 
-            this.groupBoxMiseAJour.Controls.Add( this.buttonVerifierPresenceMiseAJour );
-            this.groupBoxMiseAJour.Controls.Add( this.buttonLancerMiseAJour );
-            this.groupBoxMiseAJour.Controls.Add( this.checkBoxMiseAJourAutomatique );
-            this.groupBoxMiseAJour.Location = new System.Drawing.Point( 489, 143 );
+            this.groupBoxMiseAJour.Controls.Add(this.buttonVerifierPresenceMiseAJour);
+            this.groupBoxMiseAJour.Controls.Add(this.buttonLancerMiseAJour);
+            this.groupBoxMiseAJour.Controls.Add(this.checkBoxMiseAJourAutomatique);
+            this.groupBoxMiseAJour.Location = new System.Drawing.Point(326, 93);
+            this.groupBoxMiseAJour.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxMiseAJour.Name = "groupBoxMiseAJour";
-            this.groupBoxMiseAJour.Size = new System.Drawing.Size( 556, 135 );
+            this.groupBoxMiseAJour.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBoxMiseAJour.Size = new System.Drawing.Size(371, 88);
             this.groupBoxMiseAJour.TabIndex = 6;
             this.groupBoxMiseAJour.TabStop = false;
             this.groupBoxMiseAJour.Text = "Mise à jour";
             // 
             // buttonVerifierPresenceMiseAJour
             // 
-            this.buttonVerifierPresenceMiseAJour.Location = new System.Drawing.Point( 282, 31 );
-            this.buttonVerifierPresenceMiseAJour.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonVerifierPresenceMiseAJour.Location = new System.Drawing.Point(188, 20);
             this.buttonVerifierPresenceMiseAJour.Name = "buttonVerifierPresenceMiseAJour";
-            this.buttonVerifierPresenceMiseAJour.Size = new System.Drawing.Size( 241, 34 );
+            this.buttonVerifierPresenceMiseAJour.Size = new System.Drawing.Size(161, 22);
             this.buttonVerifierPresenceMiseAJour.TabIndex = 7;
             this.buttonVerifierPresenceMiseAJour.Text = "Vérifier la version";
             this.buttonVerifierPresenceMiseAJour.UseVisualStyleBackColor = true;
-            this.buttonVerifierPresenceMiseAJour.Click += new System.EventHandler( this.buttonVerifierPresenceMiseAJour_Click );
+            this.buttonVerifierPresenceMiseAJour.Click += new System.EventHandler(this.buttonVerifierPresenceMiseAJour_Click);
             // 
             // buttonLancerMiseAJour
             // 
-            this.buttonLancerMiseAJour.Location = new System.Drawing.Point( 282, 79 );
-            this.buttonLancerMiseAJour.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonLancerMiseAJour.Location = new System.Drawing.Point(188, 51);
             this.buttonLancerMiseAJour.Name = "buttonLancerMiseAJour";
-            this.buttonLancerMiseAJour.Size = new System.Drawing.Size( 241, 34 );
+            this.buttonLancerMiseAJour.Size = new System.Drawing.Size(161, 22);
             this.buttonLancerMiseAJour.TabIndex = 6;
             this.buttonLancerMiseAJour.Text = "Mettre à jour maintenant";
             this.buttonLancerMiseAJour.UseVisualStyleBackColor = true;
-            this.buttonLancerMiseAJour.Click += new System.EventHandler( this.buttonLancerMiseAJour_Click );
+            this.buttonLancerMiseAJour.Click += new System.EventHandler(this.buttonLancerMiseAJour_Click);
             // 
             // checkBoxMiseAJourAutomatique
             // 
             this.checkBoxMiseAJourAutomatique.AutoSize = true;
-            this.checkBoxMiseAJourAutomatique.Location = new System.Drawing.Point( 24, 37 );
+            this.checkBoxMiseAJourAutomatique.Location = new System.Drawing.Point(16, 24);
+            this.checkBoxMiseAJourAutomatique.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxMiseAJourAutomatique.Name = "checkBoxMiseAJourAutomatique";
-            this.checkBoxMiseAJourAutomatique.Size = new System.Drawing.Size( 210, 24 );
+            this.checkBoxMiseAJourAutomatique.Size = new System.Drawing.Size(142, 17);
             this.checkBoxMiseAJourAutomatique.TabIndex = 0;
             this.checkBoxMiseAJourAutomatique.Text = "Vérifier automatiquement";
             this.checkBoxMiseAJourAutomatique.UseVisualStyleBackColor = true;
-            this.checkBoxMiseAJourAutomatique.CheckedChanged += new System.EventHandler( this.checkBoxMiseAJourAutomatique_CheckedChanged );
+            this.checkBoxMiseAJourAutomatique.CheckedChanged += new System.EventHandler(this.checkBoxMiseAJourAutomatique_CheckedChanged);
             // 
             // checkBoxEnregistrerEnQuittant
             // 
             this.checkBoxEnregistrerEnQuittant.AutoSize = true;
-            this.checkBoxEnregistrerEnQuittant.Location = new System.Drawing.Point( 489, 17 );
+            this.checkBoxEnregistrerEnQuittant.Location = new System.Drawing.Point(326, 11);
+            this.checkBoxEnregistrerEnQuittant.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxEnregistrerEnQuittant.Name = "checkBoxEnregistrerEnQuittant";
-            this.checkBoxEnregistrerEnQuittant.Size = new System.Drawing.Size( 318, 24 );
+            this.checkBoxEnregistrerEnQuittant.Size = new System.Drawing.Size(213, 17);
             this.checkBoxEnregistrerEnQuittant.TabIndex = 5;
             this.checkBoxEnregistrerEnQuittant.Text = "Enregistrer automatiquement en quittant";
             this.checkBoxEnregistrerEnQuittant.UseVisualStyleBackColor = true;
             // 
             // groupBoxServeur
             // 
-            this.groupBoxServeur.Controls.Add( this.buttonGereLesComptesOGSpy );
-            this.groupBoxServeur.Controls.Add( this.checkedListBoxSelectionGalaxies );
-            this.groupBoxServeur.Controls.Add( this.label36 );
-            this.groupBoxServeur.Controls.Add( this.label35 );
-            this.groupBoxServeur.Controls.Add( this.buttonEnvoyerClassements );
-            this.groupBoxServeur.Controls.Add( this.pictureBox5 );
-            this.groupBoxServeur.Controls.Add( this.buttonRecupererClassements );
-            this.groupBoxServeur.Controls.Add( this.checkBoxClassementAllianceRecherches );
-            this.groupBoxServeur.Controls.Add( this.checkBoxClassementAllianceVaisseaux );
-            this.groupBoxServeur.Controls.Add( this.checkBoxClassementAlliancePoints );
-            this.groupBoxServeur.Controls.Add( this.checkBoxClassementJoueurRecherches );
-            this.groupBoxServeur.Controls.Add( this.checkBoxClassementJoueurVaisseaux );
-            this.groupBoxServeur.Controls.Add( this.checkBoxClassementJoueurPoints );
-            this.groupBoxServeur.Controls.Add( this.label28 );
-            this.groupBoxServeur.Controls.Add( this.buttonEnvoyerRapports );
-            this.groupBoxServeur.Controls.Add( this.pictureBox3 );
-            this.groupBoxServeur.Controls.Add( this.pictureBox2 );
-            this.groupBoxServeur.Controls.Add( this.pictureBox1 );
-            this.groupBoxServeur.Controls.Add( this.dateTimePickerRecuperationRapports );
-            this.groupBoxServeur.Controls.Add( this.label32 );
-            this.groupBoxServeur.Controls.Add( this.buttonRecupererRapports );
-            this.groupBoxServeur.Controls.Add( this.label31 );
-            this.groupBoxServeur.Controls.Add( this.label30 );
-            this.groupBoxServeur.Controls.Add( this.label29 );
-            this.groupBoxServeur.Controls.Add( this.checkBoxGardeMDP );
-            this.groupBoxServeur.Controls.Add( this.buttonConnecter );
-            this.groupBoxServeur.Controls.Add( this.buttonExporter );
-            this.groupBoxServeur.Controls.Add( this.buttonImporter );
-            this.groupBoxServeur.Controls.Add( this.labelURL );
-            this.groupBoxServeur.Controls.Add( this.textBoxURL );
-            this.groupBoxServeur.Controls.Add( this.textBoxPasse );
-            this.groupBoxServeur.Controls.Add( this.textBoxLogin );
-            this.groupBoxServeur.Controls.Add( this.label27 );
-            this.groupBoxServeur.Controls.Add( this.label26 );
-            this.groupBoxServeur.Location = new System.Drawing.Point( 1068, 14 );
-            this.groupBoxServeur.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.groupBoxServeur.Controls.Add(this.ButtonInfoserver);
+            this.groupBoxServeur.Controls.Add(this.buttonGereLesComptesOGSpy);
+            this.groupBoxServeur.Controls.Add(this.checkedListBoxSelectionGalaxies);
+            this.groupBoxServeur.Controls.Add(this.label36);
+            this.groupBoxServeur.Controls.Add(this.label35);
+            this.groupBoxServeur.Controls.Add(this.buttonEnvoyerClassements);
+            this.groupBoxServeur.Controls.Add(this.pictureBox5);
+            this.groupBoxServeur.Controls.Add(this.buttonRecupererClassements);
+            this.groupBoxServeur.Controls.Add(this.checkBoxClassementAllianceRecherches);
+            this.groupBoxServeur.Controls.Add(this.checkBoxClassementAllianceVaisseaux);
+            this.groupBoxServeur.Controls.Add(this.checkBoxClassementAlliancePoints);
+            this.groupBoxServeur.Controls.Add(this.checkBoxClassementJoueurRecherches);
+            this.groupBoxServeur.Controls.Add(this.checkBoxClassementJoueurVaisseaux);
+            this.groupBoxServeur.Controls.Add(this.checkBoxClassementJoueurPoints);
+            this.groupBoxServeur.Controls.Add(this.label28);
+            this.groupBoxServeur.Controls.Add(this.buttonEnvoyerRapports);
+            this.groupBoxServeur.Controls.Add(this.pictureBox3);
+            this.groupBoxServeur.Controls.Add(this.pictureBox2);
+            this.groupBoxServeur.Controls.Add(this.pictureBox1);
+            this.groupBoxServeur.Controls.Add(this.dateTimePickerRecuperationRapports);
+            this.groupBoxServeur.Controls.Add(this.label32);
+            this.groupBoxServeur.Controls.Add(this.buttonRecupererRapports);
+            this.groupBoxServeur.Controls.Add(this.label31);
+            this.groupBoxServeur.Controls.Add(this.label30);
+            this.groupBoxServeur.Controls.Add(this.label29);
+            this.groupBoxServeur.Controls.Add(this.checkBoxGardeMDP);
+            this.groupBoxServeur.Controls.Add(this.buttonConnecter);
+            this.groupBoxServeur.Controls.Add(this.buttonExporter);
+            this.groupBoxServeur.Controls.Add(this.buttonImporter);
+            this.groupBoxServeur.Controls.Add(this.labelURL);
+            this.groupBoxServeur.Controls.Add(this.textBoxURL);
+            this.groupBoxServeur.Controls.Add(this.textBoxPasse);
+            this.groupBoxServeur.Controls.Add(this.textBoxLogin);
+            this.groupBoxServeur.Controls.Add(this.label27);
+            this.groupBoxServeur.Controls.Add(this.label26);
+            this.groupBoxServeur.Location = new System.Drawing.Point(712, 9);
             this.groupBoxServeur.Name = "groupBoxServeur";
-            this.groupBoxServeur.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.groupBoxServeur.Size = new System.Drawing.Size( 466, 825 );
+            this.groupBoxServeur.Size = new System.Drawing.Size(311, 536);
             this.groupBoxServeur.TabIndex = 4;
             this.groupBoxServeur.TabStop = false;
             this.groupBoxServeur.Text = "Serveur";
             // 
+            // ButtonInfoserver
+            // 
+            this.ButtonInfoserver.Location = new System.Drawing.Point(109, 164);
+            this.ButtonInfoserver.Name = "ButtonInfoserver";
+            this.ButtonInfoserver.Size = new System.Drawing.Size(184, 23);
+            this.ButtonInfoserver.TabIndex = 44;
+            this.ButtonInfoserver.Text = "Info Server";
+            this.ButtonInfoserver.UseVisualStyleBackColor = true;
+            this.ButtonInfoserver.Click += new System.EventHandler(this.ButtonInfoserver_Click);
+            // 
             // buttonGereLesComptesOGSpy
             // 
-            this.buttonGereLesComptesOGSpy.Location = new System.Drawing.Point( 76, 64 );
+            this.buttonGereLesComptesOGSpy.Location = new System.Drawing.Point(51, 42);
+            this.buttonGereLesComptesOGSpy.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGereLesComptesOGSpy.Name = "buttonGereLesComptesOGSpy";
-            this.buttonGereLesComptesOGSpy.Size = new System.Drawing.Size( 35, 30 );
+            this.buttonGereLesComptesOGSpy.Size = new System.Drawing.Size(23, 19);
             this.buttonGereLesComptesOGSpy.TabIndex = 43;
             this.buttonGereLesComptesOGSpy.Text = "...";
             this.buttonGereLesComptesOGSpy.UseVisualStyleBackColor = true;
-            this.buttonGereLesComptesOGSpy.Click += new System.EventHandler( this.buttonGereLesComptesOGSpy_Click );
+            this.buttonGereLesComptesOGSpy.Click += new System.EventHandler(this.buttonGereLesComptesOGSpy_Click);
             // 
             // checkedListBoxSelectionGalaxies
             // 
@@ -2091,7 +2111,7 @@ namespace OgameFarmingInterface
             this.checkedListBoxSelectionGalaxies.FormattingEnabled = true;
             this.checkedListBoxSelectionGalaxies.HorizontalScrollbar = true;
             this.checkedListBoxSelectionGalaxies.IntegralHeight = false;
-            this.checkedListBoxSelectionGalaxies.Items.AddRange( new object[] {
+            this.checkedListBoxSelectionGalaxies.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
@@ -2100,39 +2120,41 @@ namespace OgameFarmingInterface
             "6",
             "7",
             "8",
-            "9"} );
-            this.checkedListBoxSelectionGalaxies.Location = new System.Drawing.Point( 7, 340 );
+            "9"});
+            this.checkedListBoxSelectionGalaxies.Location = new System.Drawing.Point(5, 221);
+            this.checkedListBoxSelectionGalaxies.Margin = new System.Windows.Forms.Padding(2);
             this.checkedListBoxSelectionGalaxies.MultiColumn = true;
             this.checkedListBoxSelectionGalaxies.Name = "checkedListBoxSelectionGalaxies";
             this.checkedListBoxSelectionGalaxies.ScrollAlwaysVisible = true;
-            this.checkedListBoxSelectionGalaxies.Size = new System.Drawing.Size( 452, 47 );
+            this.checkedListBoxSelectionGalaxies.Size = new System.Drawing.Size(301, 31);
             this.checkedListBoxSelectionGalaxies.TabIndex = 42;
             // 
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point( 8, 714 );
+            this.label36.Location = new System.Drawing.Point(5, 464);
+            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size( 80, 20 );
+            this.label36.Size = new System.Drawing.Size(55, 13);
             this.label36.TabIndex = 41;
             this.label36.Text = "Alliances :";
             // 
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point( 8, 690 );
+            this.label35.Location = new System.Drawing.Point(5, 448);
+            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size( 74, 20 );
+            this.label35.Size = new System.Drawing.Size(50, 13);
             this.label35.TabIndex = 40;
             this.label35.Text = "Joueurs :";
             // 
             // buttonEnvoyerClassements
             // 
             this.buttonEnvoyerClassements.Enabled = false;
-            this.buttonEnvoyerClassements.Location = new System.Drawing.Point( 83, 755 );
-            this.buttonEnvoyerClassements.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonEnvoyerClassements.Location = new System.Drawing.Point(55, 491);
             this.buttonEnvoyerClassements.Name = "buttonEnvoyerClassements";
-            this.buttonEnvoyerClassements.Size = new System.Drawing.Size( 174, 35 );
+            this.buttonEnvoyerClassements.Size = new System.Drawing.Size(116, 23);
             this.buttonEnvoyerClassements.TabIndex = 39;
             this.buttonEnvoyerClassements.Text = "Envoyer au serveur";
             this.buttonEnvoyerClassements.UseVisualStyleBackColor = true;
@@ -2140,9 +2162,10 @@ namespace OgameFarmingInterface
             // pictureBox5
             // 
             this.pictureBox5.Image = global::OgameFarmingInterface.Properties.Resources.Rapport48;
-            this.pictureBox5.Location = new System.Drawing.Point( 7, 741 );
+            this.pictureBox5.Location = new System.Drawing.Point(5, 482);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size( 69, 65 );
+            this.pictureBox5.Size = new System.Drawing.Size(46, 42);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 38;
             this.pictureBox5.TabStop = false;
@@ -2150,10 +2173,9 @@ namespace OgameFarmingInterface
             // buttonRecupererClassements
             // 
             this.buttonRecupererClassements.Enabled = false;
-            this.buttonRecupererClassements.Location = new System.Drawing.Point( 264, 755 );
-            this.buttonRecupererClassements.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonRecupererClassements.Location = new System.Drawing.Point(176, 491);
             this.buttonRecupererClassements.Name = "buttonRecupererClassements";
-            this.buttonRecupererClassements.Size = new System.Drawing.Size( 176, 35 );
+            this.buttonRecupererClassements.Size = new System.Drawing.Size(117, 23);
             this.buttonRecupererClassements.TabIndex = 37;
             this.buttonRecupererClassements.Text = "Récupérer du serveur";
             this.buttonRecupererClassements.UseVisualStyleBackColor = true;
@@ -2162,9 +2184,10 @@ namespace OgameFarmingInterface
             // 
             this.checkBoxClassementAllianceRecherches.AutoSize = true;
             this.checkBoxClassementAllianceRecherches.Enabled = false;
-            this.checkBoxClassementAllianceRecherches.Location = new System.Drawing.Point( 342, 714 );
+            this.checkBoxClassementAllianceRecherches.Location = new System.Drawing.Point(228, 464);
+            this.checkBoxClassementAllianceRecherches.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxClassementAllianceRecherches.Name = "checkBoxClassementAllianceRecherches";
-            this.checkBoxClassementAllianceRecherches.Size = new System.Drawing.Size( 117, 24 );
+            this.checkBoxClassementAllianceRecherches.Size = new System.Drawing.Size(84, 17);
             this.checkBoxClassementAllianceRecherches.TabIndex = 36;
             this.checkBoxClassementAllianceRecherches.Text = "Recherches";
             this.checkBoxClassementAllianceRecherches.UseVisualStyleBackColor = true;
@@ -2173,9 +2196,10 @@ namespace OgameFarmingInterface
             // 
             this.checkBoxClassementAllianceVaisseaux.AutoSize = true;
             this.checkBoxClassementAllianceVaisseaux.Enabled = false;
-            this.checkBoxClassementAllianceVaisseaux.Location = new System.Drawing.Point( 225, 714 );
+            this.checkBoxClassementAllianceVaisseaux.Location = new System.Drawing.Point(150, 464);
+            this.checkBoxClassementAllianceVaisseaux.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxClassementAllianceVaisseaux.Name = "checkBoxClassementAllianceVaisseaux";
-            this.checkBoxClassementAllianceVaisseaux.Size = new System.Drawing.Size( 104, 24 );
+            this.checkBoxClassementAllianceVaisseaux.Size = new System.Drawing.Size(74, 17);
             this.checkBoxClassementAllianceVaisseaux.TabIndex = 35;
             this.checkBoxClassementAllianceVaisseaux.Text = "Vaisseaux";
             this.checkBoxClassementAllianceVaisseaux.UseVisualStyleBackColor = true;
@@ -2184,9 +2208,10 @@ namespace OgameFarmingInterface
             // 
             this.checkBoxClassementAlliancePoints.AutoSize = true;
             this.checkBoxClassementAlliancePoints.Enabled = false;
-            this.checkBoxClassementAlliancePoints.Location = new System.Drawing.Point( 116, 714 );
+            this.checkBoxClassementAlliancePoints.Location = new System.Drawing.Point(77, 464);
+            this.checkBoxClassementAlliancePoints.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxClassementAlliancePoints.Name = "checkBoxClassementAlliancePoints";
-            this.checkBoxClassementAlliancePoints.Size = new System.Drawing.Size( 75, 24 );
+            this.checkBoxClassementAlliancePoints.Size = new System.Drawing.Size(55, 17);
             this.checkBoxClassementAlliancePoints.TabIndex = 34;
             this.checkBoxClassementAlliancePoints.Text = "Points";
             this.checkBoxClassementAlliancePoints.UseVisualStyleBackColor = true;
@@ -2195,9 +2220,10 @@ namespace OgameFarmingInterface
             // 
             this.checkBoxClassementJoueurRecherches.AutoSize = true;
             this.checkBoxClassementJoueurRecherches.Enabled = false;
-            this.checkBoxClassementJoueurRecherches.Location = new System.Drawing.Point( 342, 690 );
+            this.checkBoxClassementJoueurRecherches.Location = new System.Drawing.Point(228, 448);
+            this.checkBoxClassementJoueurRecherches.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxClassementJoueurRecherches.Name = "checkBoxClassementJoueurRecherches";
-            this.checkBoxClassementJoueurRecherches.Size = new System.Drawing.Size( 117, 24 );
+            this.checkBoxClassementJoueurRecherches.Size = new System.Drawing.Size(84, 17);
             this.checkBoxClassementJoueurRecherches.TabIndex = 33;
             this.checkBoxClassementJoueurRecherches.Text = "Recherches";
             this.checkBoxClassementJoueurRecherches.UseVisualStyleBackColor = true;
@@ -2206,9 +2232,10 @@ namespace OgameFarmingInterface
             // 
             this.checkBoxClassementJoueurVaisseaux.AutoSize = true;
             this.checkBoxClassementJoueurVaisseaux.Enabled = false;
-            this.checkBoxClassementJoueurVaisseaux.Location = new System.Drawing.Point( 225, 690 );
+            this.checkBoxClassementJoueurVaisseaux.Location = new System.Drawing.Point(150, 448);
+            this.checkBoxClassementJoueurVaisseaux.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxClassementJoueurVaisseaux.Name = "checkBoxClassementJoueurVaisseaux";
-            this.checkBoxClassementJoueurVaisseaux.Size = new System.Drawing.Size( 104, 24 );
+            this.checkBoxClassementJoueurVaisseaux.Size = new System.Drawing.Size(74, 17);
             this.checkBoxClassementJoueurVaisseaux.TabIndex = 32;
             this.checkBoxClassementJoueurVaisseaux.Text = "Vaisseaux";
             this.checkBoxClassementJoueurVaisseaux.UseVisualStyleBackColor = true;
@@ -2217,42 +2244,44 @@ namespace OgameFarmingInterface
             // 
             this.checkBoxClassementJoueurPoints.AutoSize = true;
             this.checkBoxClassementJoueurPoints.Enabled = false;
-            this.checkBoxClassementJoueurPoints.Location = new System.Drawing.Point( 116, 690 );
+            this.checkBoxClassementJoueurPoints.Location = new System.Drawing.Point(77, 448);
+            this.checkBoxClassementJoueurPoints.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxClassementJoueurPoints.Name = "checkBoxClassementJoueurPoints";
-            this.checkBoxClassementJoueurPoints.Size = new System.Drawing.Size( 75, 24 );
+            this.checkBoxClassementJoueurPoints.Size = new System.Drawing.Size(55, 17);
             this.checkBoxClassementJoueurPoints.TabIndex = 31;
             this.checkBoxClassementJoueurPoints.Text = "Points";
             this.checkBoxClassementJoueurPoints.UseVisualStyleBackColor = true;
             // 
             // label28
             // 
-            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label28.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label28.Location = new System.Drawing.Point( 8, 659 );
+            this.label28.Location = new System.Drawing.Point(5, 428);
+            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size( 453, 20 );
+            this.label28.Size = new System.Drawing.Size(302, 13);
             this.label28.TabIndex = 30;
             this.label28.Text = "Classements";
             // 
             // buttonEnvoyerRapports
             // 
             this.buttonEnvoyerRapports.Enabled = false;
-            this.buttonEnvoyerRapports.Location = new System.Drawing.Point( 83, 573 );
-            this.buttonEnvoyerRapports.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonEnvoyerRapports.Location = new System.Drawing.Point(55, 372);
             this.buttonEnvoyerRapports.Name = "buttonEnvoyerRapports";
-            this.buttonEnvoyerRapports.Size = new System.Drawing.Size( 174, 35 );
+            this.buttonEnvoyerRapports.Size = new System.Drawing.Size(116, 23);
             this.buttonEnvoyerRapports.TabIndex = 29;
             this.buttonEnvoyerRapports.Text = "Envoyer au serveur";
             this.buttonEnvoyerRapports.UseVisualStyleBackColor = true;
-            this.buttonEnvoyerRapports.Click += new System.EventHandler( this.buttonEnvoyerRapports_Click );
+            this.buttonEnvoyerRapports.Click += new System.EventHandler(this.buttonEnvoyerRapports_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::OgameFarmingInterface.Properties.Resources.Rapport48;
-            this.pictureBox3.Location = new System.Drawing.Point( 7, 559 );
+            this.pictureBox3.Location = new System.Drawing.Point(5, 363);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size( 69, 65 );
+            this.pictureBox3.Size = new System.Drawing.Size(46, 42);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 28;
             this.pictureBox3.TabStop = false;
@@ -2260,9 +2289,10 @@ namespace OgameFarmingInterface
             // pictureBox2
             // 
             this.pictureBox2.Image = global::OgameFarmingInterface.Properties.Resources.Galaxie48;
-            this.pictureBox2.Location = new System.Drawing.Point( 7, 390 );
+            this.pictureBox2.Location = new System.Drawing.Point(5, 253);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size( 69, 65 );
+            this.pictureBox2.Size = new System.Drawing.Size(46, 42);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 27;
             this.pictureBox2.TabStop = false;
@@ -2270,228 +2300,219 @@ namespace OgameFarmingInterface
             // pictureBox1
             // 
             this.pictureBox1.Image = global::OgameFarmingInterface.Properties.Resources.Cadenas48;
-            this.pictureBox1.Location = new System.Drawing.Point( 7, 178 );
+            this.pictureBox1.Location = new System.Drawing.Point(5, 116);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size( 69, 65 );
+            this.pictureBox1.Size = new System.Drawing.Size(46, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 26;
             this.pictureBox1.TabStop = false;
             // 
             // dateTimePickerRecuperationRapports
             // 
-            this.dateTimePickerRecuperationRapports.Location = new System.Drawing.Point( 82, 524 );
+            this.dateTimePickerRecuperationRapports.Location = new System.Drawing.Point(55, 341);
+            this.dateTimePickerRecuperationRapports.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePickerRecuperationRapports.Name = "dateTimePickerRecuperationRapports";
-            this.dateTimePickerRecuperationRapports.Size = new System.Drawing.Size( 266, 26 );
+            this.dateTimePickerRecuperationRapports.Size = new System.Drawing.Size(179, 20);
             this.dateTimePickerRecuperationRapports.TabIndex = 24;
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point( 8, 528 );
+            this.label32.Location = new System.Drawing.Point(5, 343);
+            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size( 75, 20 );
+            this.label32.Size = new System.Drawing.Size(51, 13);
             this.label32.TabIndex = 23;
             this.label32.Text = "Depuis le";
             // 
             // buttonRecupererRapports
             // 
             this.buttonRecupererRapports.Enabled = false;
-            this.buttonRecupererRapports.Location = new System.Drawing.Point( 264, 573 );
-            this.buttonRecupererRapports.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonRecupererRapports.Location = new System.Drawing.Point(176, 372);
             this.buttonRecupererRapports.Name = "buttonRecupererRapports";
-            this.buttonRecupererRapports.Size = new System.Drawing.Size( 176, 35 );
+            this.buttonRecupererRapports.Size = new System.Drawing.Size(117, 23);
             this.buttonRecupererRapports.TabIndex = 22;
             this.buttonRecupererRapports.Text = "Récupérer du serveur";
             this.buttonRecupererRapports.UseVisualStyleBackColor = true;
-            this.buttonRecupererRapports.Click += new System.EventHandler( this.buttonRecupererRapports_Click );
+            this.buttonRecupererRapports.Click += new System.EventHandler(this.buttonRecupererRapports_Click);
             // 
             // label31
             // 
-            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label31.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label31.Location = new System.Drawing.Point( 8, 494 );
+            this.label31.Location = new System.Drawing.Point(5, 321);
+            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size( 453, 20 );
+            this.label31.Size = new System.Drawing.Size(302, 13);
             this.label31.TabIndex = 21;
             this.label31.Text = "Rapports";
             // 
             // label30
             // 
-            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label30.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label30.Location = new System.Drawing.Point( 8, 32 );
+            this.label30.Location = new System.Drawing.Point(5, 21);
+            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size( 453, 20 );
+            this.label30.Size = new System.Drawing.Size(302, 13);
             this.label30.TabIndex = 20;
             this.label30.Text = "Paramètres de connexion";
             // 
             // label29
             // 
-            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label29.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label29.Location = new System.Drawing.Point( 8, 308 );
+            this.label29.Location = new System.Drawing.Point(5, 200);
+            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size( 453, 20 );
+            this.label29.Size = new System.Drawing.Size(302, 13);
             this.label29.TabIndex = 19;
             this.label29.Text = "Galaxies";
             // 
             // checkBoxGardeMDP
             // 
             this.checkBoxGardeMDP.AutoSize = true;
-            this.checkBoxGardeMDP.Location = new System.Drawing.Point( 172, 178 );
+            this.checkBoxGardeMDP.Location = new System.Drawing.Point(115, 116);
+            this.checkBoxGardeMDP.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxGardeMDP.Name = "checkBoxGardeMDP";
-            this.checkBoxGardeMDP.Size = new System.Drawing.Size( 236, 24 );
+            this.checkBoxGardeMDP.Size = new System.Drawing.Size(163, 17);
             this.checkBoxGardeMDP.TabIndex = 18;
             this.checkBoxGardeMDP.Text = "Se souvenir du mot de passe";
             this.checkBoxGardeMDP.UseVisualStyleBackColor = true;
             // 
             // buttonConnecter
             // 
-            this.buttonConnecter.Location = new System.Drawing.Point( 164, 208 );
-            this.buttonConnecter.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonConnecter.Location = new System.Drawing.Point(109, 135);
             this.buttonConnecter.Name = "buttonConnecter";
-            this.buttonConnecter.Size = new System.Drawing.Size( 276, 35 );
+            this.buttonConnecter.Size = new System.Drawing.Size(184, 23);
             this.buttonConnecter.TabIndex = 8;
             this.buttonConnecter.Text = "Connecter";
             this.buttonConnecter.UseVisualStyleBackColor = true;
-            this.buttonConnecter.Click += new System.EventHandler( this.buttonConnecter_Click );
+            this.buttonConnecter.Click += new System.EventHandler(this.buttonConnecter_Click);
             // 
             // buttonExporter
             // 
             this.buttonExporter.Enabled = false;
-            this.buttonExporter.Location = new System.Drawing.Point( 264, 402 );
-            this.buttonExporter.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonExporter.Location = new System.Drawing.Point(176, 261);
             this.buttonExporter.Name = "buttonExporter";
-            this.buttonExporter.Size = new System.Drawing.Size( 176, 35 );
+            this.buttonExporter.Size = new System.Drawing.Size(117, 23);
             this.buttonExporter.TabIndex = 7;
             this.buttonExporter.Text = "Récupérer du serveur";
             this.buttonExporter.UseVisualStyleBackColor = true;
-            this.buttonExporter.Click += new System.EventHandler( this.buttonExporter_Click );
+            this.buttonExporter.Click += new System.EventHandler(this.buttonExporter_Click);
             // 
             // buttonImporter
             // 
             this.buttonImporter.Enabled = false;
-            this.buttonImporter.Location = new System.Drawing.Point( 82, 402 );
-            this.buttonImporter.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonImporter.Location = new System.Drawing.Point(55, 261);
             this.buttonImporter.Name = "buttonImporter";
-            this.buttonImporter.Size = new System.Drawing.Size( 174, 35 );
+            this.buttonImporter.Size = new System.Drawing.Size(116, 23);
             this.buttonImporter.TabIndex = 6;
             this.buttonImporter.Text = "Envoyer au serveur";
             this.buttonImporter.UseVisualStyleBackColor = true;
-            this.buttonImporter.Click += new System.EventHandler( this.buttonImporter_Click );
+            this.buttonImporter.Click += new System.EventHandler(this.buttonImporter_Click);
             // 
             // labelURL
             // 
             this.labelURL.AutoSize = true;
-            this.labelURL.Location = new System.Drawing.Point( 44, 149 );
-            this.labelURL.Margin = new System.Windows.Forms.Padding( 4, 0, 4, 0 );
+            this.labelURL.Location = new System.Drawing.Point(29, 97);
             this.labelURL.Name = "labelURL";
-            this.labelURL.Size = new System.Drawing.Size( 120, 20 );
+            this.labelURL.Size = new System.Drawing.Size(82, 13);
             this.labelURL.TabIndex = 5;
             this.labelURL.Text = "URL du serveur";
             // 
             // textBoxURL
             // 
-            this.textBoxURL.Location = new System.Drawing.Point( 172, 145 );
-            this.textBoxURL.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.textBoxURL.Location = new System.Drawing.Point(115, 94);
             this.textBoxURL.Name = "textBoxURL";
-            this.textBoxURL.Size = new System.Drawing.Size( 268, 26 );
+            this.textBoxURL.Size = new System.Drawing.Size(180, 20);
             this.textBoxURL.TabIndex = 4;
             // 
             // textBoxPasse
             // 
-            this.textBoxPasse.Location = new System.Drawing.Point( 172, 105 );
-            this.textBoxPasse.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.textBoxPasse.Location = new System.Drawing.Point(115, 68);
             this.textBoxPasse.Name = "textBoxPasse";
             this.textBoxPasse.PasswordChar = '*';
-            this.textBoxPasse.Size = new System.Drawing.Size( 268, 26 );
+            this.textBoxPasse.Size = new System.Drawing.Size(180, 20);
             this.textBoxPasse.TabIndex = 3;
             // 
             // textBoxLogin
             // 
-            this.textBoxLogin.Location = new System.Drawing.Point( 172, 65 );
-            this.textBoxLogin.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.textBoxLogin.Location = new System.Drawing.Point(115, 42);
             this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size( 268, 26 );
+            this.textBoxLogin.Size = new System.Drawing.Size(180, 20);
             this.textBoxLogin.TabIndex = 2;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point( 62, 109 );
-            this.label27.Margin = new System.Windows.Forms.Padding( 4, 0, 4, 0 );
+            this.label27.Location = new System.Drawing.Point(41, 71);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size( 105, 20 );
+            this.label27.Size = new System.Drawing.Size(71, 13);
             this.label27.TabIndex = 1;
             this.label27.Text = "Mot de passe";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point( 118, 69 );
-            this.label26.Margin = new System.Windows.Forms.Padding( 4, 0, 4, 0 );
+            this.label26.Location = new System.Drawing.Point(79, 45);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size( 48, 20 );
+            this.label26.Size = new System.Drawing.Size(33, 13);
             this.label26.TabIndex = 0;
             this.label26.Text = "Login";
             // 
             // groupBoxParamsSimuEnMasse
             // 
-            this.groupBoxParamsSimuEnMasse.Controls.Add( this.textBoxParamsSimuEnMasseNombreDeSimulations );
-            this.groupBoxParamsSimuEnMasse.Controls.Add( this.label25 );
-            this.groupBoxParamsSimuEnMasse.Location = new System.Drawing.Point( 489, 49 );
-            this.groupBoxParamsSimuEnMasse.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.groupBoxParamsSimuEnMasse.Controls.Add(this.textBoxParamsSimuEnMasseNombreDeSimulations);
+            this.groupBoxParamsSimuEnMasse.Controls.Add(this.label25);
+            this.groupBoxParamsSimuEnMasse.Location = new System.Drawing.Point(326, 32);
             this.groupBoxParamsSimuEnMasse.Name = "groupBoxParamsSimuEnMasse";
-            this.groupBoxParamsSimuEnMasse.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.groupBoxParamsSimuEnMasse.Size = new System.Drawing.Size( 556, 86 );
+            this.groupBoxParamsSimuEnMasse.Size = new System.Drawing.Size(371, 56);
             this.groupBoxParamsSimuEnMasse.TabIndex = 3;
             this.groupBoxParamsSimuEnMasse.TabStop = false;
             this.groupBoxParamsSimuEnMasse.Text = "Paramétrage des simulations de masse";
             // 
             // textBoxParamsSimuEnMasseNombreDeSimulations
             // 
-            this.textBoxParamsSimuEnMasseNombreDeSimulations.Location = new System.Drawing.Point( 208, 37 );
-            this.textBoxParamsSimuEnMasseNombreDeSimulations.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.textBoxParamsSimuEnMasseNombreDeSimulations.Location = new System.Drawing.Point(139, 24);
             this.textBoxParamsSimuEnMasseNombreDeSimulations.MaxLength = 5;
             this.textBoxParamsSimuEnMasseNombreDeSimulations.Name = "textBoxParamsSimuEnMasseNombreDeSimulations";
-            this.textBoxParamsSimuEnMasseNombreDeSimulations.Size = new System.Drawing.Size( 74, 26 );
+            this.textBoxParamsSimuEnMasseNombreDeSimulations.Size = new System.Drawing.Size(51, 20);
             this.textBoxParamsSimuEnMasseNombreDeSimulations.TabIndex = 1;
             this.textBoxParamsSimuEnMasseNombreDeSimulations.Text = "10";
             this.textBoxParamsSimuEnMasseNombreDeSimulations.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textBoxParamsSimuEnMasseNombreDeSimulations.TextChanged += new System.EventHandler( this.textBoxNombre_TextChanged );
+            this.textBoxParamsSimuEnMasseNombreDeSimulations.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point( 30, 42 );
-            this.label25.Margin = new System.Windows.Forms.Padding( 4, 0, 4, 0 );
+            this.label25.Location = new System.Drawing.Point(20, 27);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size( 170, 20 );
+            this.label25.Size = new System.Drawing.Size(113, 13);
             this.label25.TabIndex = 0;
             this.label25.Text = "Nombre de simulations";
             // 
             // groupBoxAmis
             // 
-            this.groupBoxAmis.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBoxAmis.Controls.Add( this.label24 );
-            this.groupBoxAmis.Controls.Add( this.label23 );
-            this.groupBoxAmis.Controls.Add( this.label22 );
-            this.groupBoxAmis.Controls.Add( this.buttonAjoutJoueurAmi );
-            this.groupBoxAmis.Controls.Add( this.buttonAjoutAllianceAmie );
-            this.groupBoxAmis.Controls.Add( this.listBoxCoordonneesAmies );
-            this.groupBoxAmis.Controls.Add( this.listBoxJoueursAmis );
-            this.groupBoxAmis.Controls.Add( this.buttonAjoutCoordonneesAmies );
-            this.groupBoxAmis.Controls.Add( this.textBoxAjoutAmi );
-            this.groupBoxAmis.Controls.Add( this.listBoxAlliancesAmies );
-            this.groupBoxAmis.Location = new System.Drawing.Point( 489, 286 );
-            this.groupBoxAmis.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.groupBoxAmis.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBoxAmis.Controls.Add(this.label24);
+            this.groupBoxAmis.Controls.Add(this.label23);
+            this.groupBoxAmis.Controls.Add(this.label22);
+            this.groupBoxAmis.Controls.Add(this.buttonAjoutJoueurAmi);
+            this.groupBoxAmis.Controls.Add(this.buttonAjoutAllianceAmie);
+            this.groupBoxAmis.Controls.Add(this.listBoxCoordonneesAmies);
+            this.groupBoxAmis.Controls.Add(this.listBoxJoueursAmis);
+            this.groupBoxAmis.Controls.Add(this.buttonAjoutCoordonneesAmies);
+            this.groupBoxAmis.Controls.Add(this.textBoxAjoutAmi);
+            this.groupBoxAmis.Controls.Add(this.listBoxAlliancesAmies);
+            this.groupBoxAmis.Location = new System.Drawing.Point(326, 186);
             this.groupBoxAmis.Name = "groupBoxAmis";
-            this.groupBoxAmis.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.groupBoxAmis.Size = new System.Drawing.Size( 556, 680 );
+            this.groupBoxAmis.Size = new System.Drawing.Size(371, 430);
             this.groupBoxAmis.TabIndex = 2;
             this.groupBoxAmis.TabStop = false;
             this.groupBoxAmis.Text = "Amis";
@@ -2499,119 +2520,104 @@ namespace OgameFarmingInterface
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point( 28, 394 );
-            this.label24.Margin = new System.Windows.Forms.Padding( 4, 0, 4, 0 );
+            this.label24.Location = new System.Drawing.Point(19, 256);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size( 105, 20 );
+            this.label24.Size = new System.Drawing.Size(70, 13);
             this.label24.TabIndex = 9;
             this.label24.Text = "Coordonnees";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point( 28, 258 );
-            this.label23.Margin = new System.Windows.Forms.Padding( 4, 0, 4, 0 );
+            this.label23.Location = new System.Drawing.Point(19, 168);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size( 66, 20 );
+            this.label23.Size = new System.Drawing.Size(44, 13);
             this.label23.TabIndex = 8;
             this.label23.Text = "Joueurs";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point( 28, 123 );
-            this.label22.Margin = new System.Windows.Forms.Padding( 4, 0, 4, 0 );
+            this.label22.Location = new System.Drawing.Point(19, 80);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size( 72, 20 );
+            this.label22.Size = new System.Drawing.Size(49, 13);
             this.label22.TabIndex = 7;
             this.label22.Text = "Alliances";
             // 
             // buttonAjoutJoueurAmi
             // 
-            this.buttonAjoutJoueurAmi.Location = new System.Drawing.Point( 408, 72 );
-            this.buttonAjoutJoueurAmi.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonAjoutJoueurAmi.Location = new System.Drawing.Point(272, 47);
             this.buttonAjoutJoueurAmi.Name = "buttonAjoutJoueurAmi";
-            this.buttonAjoutJoueurAmi.Size = new System.Drawing.Size( 117, 34 );
+            this.buttonAjoutJoueurAmi.Size = new System.Drawing.Size(78, 22);
             this.buttonAjoutJoueurAmi.TabIndex = 6;
             this.buttonAjoutJoueurAmi.Text = "Joueur";
             this.buttonAjoutJoueurAmi.UseVisualStyleBackColor = true;
-            this.buttonAjoutJoueurAmi.Click += new System.EventHandler( this.buttonAjoutJoueurAmi_Click );
+            this.buttonAjoutJoueurAmi.Click += new System.EventHandler(this.buttonAjoutJoueurAmi_Click);
             // 
             // buttonAjoutAllianceAmie
             // 
-            this.buttonAjoutAllianceAmie.Location = new System.Drawing.Point( 282, 72 );
-            this.buttonAjoutAllianceAmie.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonAjoutAllianceAmie.Location = new System.Drawing.Point(188, 47);
             this.buttonAjoutAllianceAmie.Name = "buttonAjoutAllianceAmie";
-            this.buttonAjoutAllianceAmie.Size = new System.Drawing.Size( 117, 34 );
+            this.buttonAjoutAllianceAmie.Size = new System.Drawing.Size(78, 22);
             this.buttonAjoutAllianceAmie.TabIndex = 5;
             this.buttonAjoutAllianceAmie.Text = "Alliance";
             this.buttonAjoutAllianceAmie.UseVisualStyleBackColor = true;
-            this.buttonAjoutAllianceAmie.Click += new System.EventHandler( this.buttonAjoutAllianceAmie_Click );
+            this.buttonAjoutAllianceAmie.Click += new System.EventHandler(this.buttonAjoutAllianceAmie_Click);
             // 
             // listBoxCoordonneesAmies
             // 
             this.listBoxCoordonneesAmies.FormattingEnabled = true;
-            this.listBoxCoordonneesAmies.ItemHeight = 20;
-            this.listBoxCoordonneesAmies.Location = new System.Drawing.Point( 33, 418 );
-            this.listBoxCoordonneesAmies.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.listBoxCoordonneesAmies.Location = new System.Drawing.Point(22, 272);
             this.listBoxCoordonneesAmies.Name = "listBoxCoordonneesAmies";
-            this.listBoxCoordonneesAmies.Size = new System.Drawing.Size( 490, 104 );
+            this.listBoxCoordonneesAmies.Size = new System.Drawing.Size(328, 69);
             this.listBoxCoordonneesAmies.TabIndex = 4;
-            this.listBoxCoordonneesAmies.DoubleClick += new System.EventHandler( this.listBoxesAlliance_DoubleClick );
+            this.listBoxCoordonneesAmies.DoubleClick += new System.EventHandler(this.listBoxesAlliance_DoubleClick);
             // 
             // listBoxJoueursAmis
             // 
             this.listBoxJoueursAmis.FormattingEnabled = true;
-            this.listBoxJoueursAmis.ItemHeight = 20;
-            this.listBoxJoueursAmis.Location = new System.Drawing.Point( 33, 283 );
-            this.listBoxJoueursAmis.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.listBoxJoueursAmis.Location = new System.Drawing.Point(22, 184);
             this.listBoxJoueursAmis.Name = "listBoxJoueursAmis";
-            this.listBoxJoueursAmis.Size = new System.Drawing.Size( 490, 104 );
+            this.listBoxJoueursAmis.Size = new System.Drawing.Size(328, 69);
             this.listBoxJoueursAmis.TabIndex = 3;
-            this.listBoxJoueursAmis.DoubleClick += new System.EventHandler( this.listBoxesAlliance_DoubleClick );
+            this.listBoxJoueursAmis.DoubleClick += new System.EventHandler(this.listBoxesAlliance_DoubleClick);
             // 
             // buttonAjoutCoordonneesAmies
             // 
-            this.buttonAjoutCoordonneesAmies.Location = new System.Drawing.Point( 156, 72 );
-            this.buttonAjoutCoordonneesAmies.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonAjoutCoordonneesAmies.Location = new System.Drawing.Point(104, 47);
             this.buttonAjoutCoordonneesAmies.Name = "buttonAjoutCoordonneesAmies";
-            this.buttonAjoutCoordonneesAmies.Size = new System.Drawing.Size( 117, 34 );
+            this.buttonAjoutCoordonneesAmies.Size = new System.Drawing.Size(78, 22);
             this.buttonAjoutCoordonneesAmies.TabIndex = 2;
             this.buttonAjoutCoordonneesAmies.Text = "Coordonnees";
             this.buttonAjoutCoordonneesAmies.UseVisualStyleBackColor = true;
-            this.buttonAjoutCoordonneesAmies.Click += new System.EventHandler( this.buttonAjoutCoordonneesAmies_Click );
+            this.buttonAjoutCoordonneesAmies.Click += new System.EventHandler(this.buttonAjoutCoordonneesAmies_Click);
             // 
             // textBoxAjoutAmi
             // 
-            this.textBoxAjoutAmi.Location = new System.Drawing.Point( 33, 35 );
-            this.textBoxAjoutAmi.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.textBoxAjoutAmi.Location = new System.Drawing.Point(22, 23);
             this.textBoxAjoutAmi.Name = "textBoxAjoutAmi";
-            this.textBoxAjoutAmi.Size = new System.Drawing.Size( 490, 26 );
+            this.textBoxAjoutAmi.Size = new System.Drawing.Size(328, 20);
             this.textBoxAjoutAmi.TabIndex = 1;
             // 
             // listBoxAlliancesAmies
             // 
             this.listBoxAlliancesAmies.FormattingEnabled = true;
-            this.listBoxAlliancesAmies.ItemHeight = 20;
-            this.listBoxAlliancesAmies.Location = new System.Drawing.Point( 33, 148 );
-            this.listBoxAlliancesAmies.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.listBoxAlliancesAmies.Location = new System.Drawing.Point(22, 96);
             this.listBoxAlliancesAmies.Name = "listBoxAlliancesAmies";
-            this.listBoxAlliancesAmies.Size = new System.Drawing.Size( 490, 104 );
+            this.listBoxAlliancesAmies.Size = new System.Drawing.Size(328, 69);
             this.listBoxAlliancesAmies.TabIndex = 0;
-            this.listBoxAlliancesAmies.DoubleClick += new System.EventHandler( this.listBoxesAlliance_DoubleClick );
+            this.listBoxAlliancesAmies.DoubleClick += new System.EventHandler(this.listBoxesAlliance_DoubleClick);
             // 
             // groupBoxColonnesAffichees
             // 
-            this.groupBoxColonnesAffichees.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBoxColonnesAffichees.Controls.Add( this.label37 );
-            this.groupBoxColonnesAffichees.Controls.Add( this.buttonReinitialiserColonneRapports );
-            this.groupBoxColonnesAffichees.Controls.Add( this.ColonnesAfficheesCheckedListBox );
-            this.groupBoxColonnesAffichees.Location = new System.Drawing.Point( 21, 14 );
-            this.groupBoxColonnesAffichees.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.groupBoxColonnesAffichees.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBoxColonnesAffichees.Controls.Add(this.label37);
+            this.groupBoxColonnesAffichees.Controls.Add(this.buttonReinitialiserColonneRapports);
+            this.groupBoxColonnesAffichees.Controls.Add(this.ColonnesAfficheesCheckedListBox);
+            this.groupBoxColonnesAffichees.Location = new System.Drawing.Point(14, 9);
             this.groupBoxColonnesAffichees.Name = "groupBoxColonnesAffichees";
-            this.groupBoxColonnesAffichees.Padding = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
-            this.groupBoxColonnesAffichees.Size = new System.Drawing.Size( 446, 952 );
+            this.groupBoxColonnesAffichees.Size = new System.Drawing.Size(297, 606);
             this.groupBoxColonnesAffichees.TabIndex = 1;
             this.groupBoxColonnesAffichees.TabStop = false;
             this.groupBoxColonnesAffichees.Text = "Colonnes de la vue Rapports d\'espionnage";
@@ -2619,232 +2625,243 @@ namespace OgameFarmingInterface
             // label37
             // 
             this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label37.Location = new System.Drawing.Point( 24, 887 );
+            this.label37.Location = new System.Drawing.Point(16, 564);
+            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size( 392, 49 );
+            this.label37.Size = new System.Drawing.Size(261, 32);
             this.label37.TabIndex = 2;
             this.label37.Text = "Les colonnes marquées [S] sont des colonnes de résultat de simulation massive.";
             // 
             // buttonReinitialiserColonneRapports
             // 
-            this.buttonReinitialiserColonneRapports.Location = new System.Drawing.Point( 28, 51 );
-            this.buttonReinitialiserColonneRapports.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.buttonReinitialiserColonneRapports.Location = new System.Drawing.Point(19, 33);
             this.buttonReinitialiserColonneRapports.Name = "buttonReinitialiserColonneRapports";
-            this.buttonReinitialiserColonneRapports.Size = new System.Drawing.Size( 297, 62 );
+            this.buttonReinitialiserColonneRapports.Size = new System.Drawing.Size(198, 40);
             this.buttonReinitialiserColonneRapports.TabIndex = 0;
             this.buttonReinitialiserColonneRapports.Text = "Réinitialiser l\'organisation des colonnes des rapports d\'espionnage";
             this.buttonReinitialiserColonneRapports.UseVisualStyleBackColor = true;
-            this.buttonReinitialiserColonneRapports.Click += new System.EventHandler( this.buttonReinitialiserColonneRapports_Click );
+            this.buttonReinitialiserColonneRapports.Click += new System.EventHandler(this.buttonReinitialiserColonneRapports_Click);
             // 
             // ColonnesAfficheesCheckedListBox
             // 
-            this.ColonnesAfficheesCheckedListBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.ColonnesAfficheesCheckedListBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.ColonnesAfficheesCheckedListBox.FormattingEnabled = true;
             this.ColonnesAfficheesCheckedListBox.HorizontalScrollbar = true;
-            this.ColonnesAfficheesCheckedListBox.Location = new System.Drawing.Point( 28, 122 );
-            this.ColonnesAfficheesCheckedListBox.Margin = new System.Windows.Forms.Padding( 4, 5, 4, 5 );
+            this.ColonnesAfficheesCheckedListBox.Location = new System.Drawing.Point(19, 79);
             this.ColonnesAfficheesCheckedListBox.Name = "ColonnesAfficheesCheckedListBox";
-            this.ColonnesAfficheesCheckedListBox.Size = new System.Drawing.Size( 388, 760 );
+            this.ColonnesAfficheesCheckedListBox.Size = new System.Drawing.Size(260, 469);
             this.ColonnesAfficheesCheckedListBox.TabIndex = 1;
-            this.ColonnesAfficheesCheckedListBox.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler( this.ColonnesAfficheesCheckedListBox_ItemCheck );
+            this.ColonnesAfficheesCheckedListBox.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.ColonnesAfficheesCheckedListBox_ItemCheck);
             // 
             // tabPageNavigateur
             // 
-            this.tabPageNavigateur.Controls.Add( this.panel1 );
-            this.tabPageNavigateur.Controls.Add( this.textBoxBarreDAdresse );
-            this.tabPageNavigateur.Controls.Add( this.buttonGO );
-            this.tabPageNavigateur.Controls.Add( this.buttonActualiser );
-            this.tabPageNavigateur.Controls.Add( this.buttonArreter );
-            this.tabPageNavigateur.Controls.Add( this.buttonHome );
-            this.tabPageNavigateur.Controls.Add( this.buttonSuivant );
-            this.tabPageNavigateur.Controls.Add( this.buttonPrecedant );
-            this.tabPageNavigateur.Location = new System.Drawing.Point( 4, 29 );
+            this.tabPageNavigateur.Controls.Add(this.panel1);
+            this.tabPageNavigateur.Controls.Add(this.textBoxBarreDAdresse);
+            this.tabPageNavigateur.Controls.Add(this.buttonGO);
+            this.tabPageNavigateur.Controls.Add(this.buttonActualiser);
+            this.tabPageNavigateur.Controls.Add(this.buttonArreter);
+            this.tabPageNavigateur.Controls.Add(this.buttonHome);
+            this.tabPageNavigateur.Controls.Add(this.buttonSuivant);
+            this.tabPageNavigateur.Controls.Add(this.buttonPrecedant);
+            this.tabPageNavigateur.Location = new System.Drawing.Point(4, 22);
+            this.tabPageNavigateur.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageNavigateur.Name = "tabPageNavigateur";
-            this.tabPageNavigateur.Padding = new System.Windows.Forms.Padding( 3 );
-            this.tabPageNavigateur.Size = new System.Drawing.Size( 1673, 1008 );
+            this.tabPageNavigateur.Padding = new System.Windows.Forms.Padding(2);
+            this.tabPageNavigateur.Size = new System.Drawing.Size(1113, 634);
             this.tabPageNavigateur.TabIndex = 6;
             this.tabPageNavigateur.Text = "Navigateur";
             this.tabPageNavigateur.UseVisualStyleBackColor = true;
-            this.tabPageNavigateur.Click += new System.EventHandler( this.tabPageNavigateur_Click );
+            this.tabPageNavigateur.Click += new System.EventHandler(this.tabPageNavigateur_Click);
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add( this.webBrowser );
-            this.panel1.Location = new System.Drawing.Point( 6, 52 );
+            this.panel1.Controls.Add(this.webBrowser);
+            this.panel1.Location = new System.Drawing.Point(4, 34);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size( 1661, 950 );
+            this.panel1.Size = new System.Drawing.Size(1109, 606);
             this.panel1.TabIndex = 8;
             // 
             // webBrowser
             // 
             this.webBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser.Location = new System.Drawing.Point( 0, 0 );
-            this.webBrowser.MinimumSize = new System.Drawing.Size( 20, 20 );
+            this.webBrowser.Location = new System.Drawing.Point(0, 0);
+            this.webBrowser.Margin = new System.Windows.Forms.Padding(2);
+            this.webBrowser.MinimumSize = new System.Drawing.Size(13, 13);
             this.webBrowser.Name = "webBrowser";
-            this.webBrowser.Size = new System.Drawing.Size( 1657, 946 );
+            this.webBrowser.Size = new System.Drawing.Size(1105, 602);
             this.webBrowser.TabIndex = 0;
-            this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler( this.webBrowser_Navigated );
+            this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser_Navigated);
             // 
             // textBoxBarreDAdresse
             // 
-            this.textBoxBarreDAdresse.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxBarreDAdresse.Location = new System.Drawing.Point( 261, 13 );
+            this.textBoxBarreDAdresse.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxBarreDAdresse.Location = new System.Drawing.Point(174, 8);
+            this.textBoxBarreDAdresse.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxBarreDAdresse.Name = "textBoxBarreDAdresse";
-            this.textBoxBarreDAdresse.Size = new System.Drawing.Size( 1355, 26 );
+            this.textBoxBarreDAdresse.Size = new System.Drawing.Size(905, 20);
             this.textBoxBarreDAdresse.TabIndex = 7;
-            this.textBoxBarreDAdresse.KeyDown += new System.Windows.Forms.KeyEventHandler( this.textBoxBarreDAdresse_KeyDown );
+            this.textBoxBarreDAdresse.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxBarreDAdresse_KeyDown);
             // 
             // buttonGO
             // 
             this.buttonGO.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonGO.Image = global::OgameFarmingInterface.Properties.Resources.GO;
-            this.buttonGO.Location = new System.Drawing.Point( 1622, 6 );
+            this.buttonGO.Location = new System.Drawing.Point(1081, 4);
+            this.buttonGO.Margin = new System.Windows.Forms.Padding(2);
             this.buttonGO.Name = "buttonGO";
-            this.buttonGO.Size = new System.Drawing.Size( 45, 40 );
+            this.buttonGO.Size = new System.Drawing.Size(30, 26);
             this.buttonGO.TabIndex = 6;
             this.buttonGO.UseVisualStyleBackColor = true;
-            this.buttonGO.Click += new System.EventHandler( this.buttonGO_Click );
+            this.buttonGO.Click += new System.EventHandler(this.buttonGO_Click);
             // 
             // buttonActualiser
             // 
             this.buttonActualiser.Image = global::OgameFarmingInterface.Properties.Resources.Actualiser;
-            this.buttonActualiser.Location = new System.Drawing.Point( 210, 6 );
+            this.buttonActualiser.Location = new System.Drawing.Point(140, 4);
+            this.buttonActualiser.Margin = new System.Windows.Forms.Padding(2);
             this.buttonActualiser.Name = "buttonActualiser";
-            this.buttonActualiser.Size = new System.Drawing.Size( 45, 40 );
+            this.buttonActualiser.Size = new System.Drawing.Size(30, 26);
             this.buttonActualiser.TabIndex = 5;
             this.buttonActualiser.UseVisualStyleBackColor = true;
-            this.buttonActualiser.Click += new System.EventHandler( this.buttonActualiser_Click );
+            this.buttonActualiser.Click += new System.EventHandler(this.buttonActualiser_Click);
             // 
             // buttonArreter
             // 
             this.buttonArreter.Image = global::OgameFarmingInterface.Properties.Resources.Arreter;
-            this.buttonArreter.Location = new System.Drawing.Point( 159, 6 );
+            this.buttonArreter.Location = new System.Drawing.Point(106, 4);
+            this.buttonArreter.Margin = new System.Windows.Forms.Padding(2);
             this.buttonArreter.Name = "buttonArreter";
-            this.buttonArreter.Size = new System.Drawing.Size( 45, 40 );
+            this.buttonArreter.Size = new System.Drawing.Size(30, 26);
             this.buttonArreter.TabIndex = 4;
             this.buttonArreter.UseVisualStyleBackColor = true;
-            this.buttonArreter.Click += new System.EventHandler( this.buttonArreter_Click );
+            this.buttonArreter.Click += new System.EventHandler(this.buttonArreter_Click);
             // 
             // buttonHome
             // 
             this.buttonHome.Image = global::OgameFarmingInterface.Properties.Resources.Home;
-            this.buttonHome.Location = new System.Drawing.Point( 108, 6 );
+            this.buttonHome.Location = new System.Drawing.Point(72, 4);
+            this.buttonHome.Margin = new System.Windows.Forms.Padding(2);
             this.buttonHome.Name = "buttonHome";
-            this.buttonHome.Size = new System.Drawing.Size( 45, 40 );
+            this.buttonHome.Size = new System.Drawing.Size(30, 26);
             this.buttonHome.TabIndex = 3;
             this.buttonHome.UseVisualStyleBackColor = true;
-            this.buttonHome.Click += new System.EventHandler( this.buttonHome_Click );
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
             // buttonSuivant
             // 
             this.buttonSuivant.Image = global::OgameFarmingInterface.Properties.Resources.Suivant;
-            this.buttonSuivant.Location = new System.Drawing.Point( 57, 6 );
+            this.buttonSuivant.Location = new System.Drawing.Point(38, 4);
+            this.buttonSuivant.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSuivant.Name = "buttonSuivant";
-            this.buttonSuivant.Size = new System.Drawing.Size( 45, 40 );
+            this.buttonSuivant.Size = new System.Drawing.Size(30, 26);
             this.buttonSuivant.TabIndex = 2;
             this.buttonSuivant.UseVisualStyleBackColor = true;
-            this.buttonSuivant.Click += new System.EventHandler( this.buttonSuivant_Click );
+            this.buttonSuivant.Click += new System.EventHandler(this.buttonSuivant_Click);
             // 
             // buttonPrecedant
             // 
             this.buttonPrecedant.Image = global::OgameFarmingInterface.Properties.Resources.Precedant;
-            this.buttonPrecedant.Location = new System.Drawing.Point( 6, 6 );
+            this.buttonPrecedant.Location = new System.Drawing.Point(4, 4);
+            this.buttonPrecedant.Margin = new System.Windows.Forms.Padding(2);
             this.buttonPrecedant.Name = "buttonPrecedant";
-            this.buttonPrecedant.Size = new System.Drawing.Size( 45, 40 );
+            this.buttonPrecedant.Size = new System.Drawing.Size(30, 26);
             this.buttonPrecedant.TabIndex = 1;
             this.buttonPrecedant.UseVisualStyleBackColor = true;
-            this.buttonPrecedant.Click += new System.EventHandler( this.buttonPrecedant_Click );
+            this.buttonPrecedant.Click += new System.EventHandler(this.buttonPrecedant_Click);
             // 
             // contextMenuStripTray
             // 
-            this.contextMenuStripTray.Items.AddRange( new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripTrayMenuItemQuitter} );
+            this.contextMenuStripTray.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripTrayMenuItemQuitter});
             this.contextMenuStripTray.Name = "contextMenuStripTray";
-            this.contextMenuStripTray.Size = new System.Drawing.Size( 150, 30 );
+            this.contextMenuStripTray.Size = new System.Drawing.Size(112, 26);
             // 
             // toolStripTrayMenuItemQuitter
             // 
             this.toolStripTrayMenuItemQuitter.Name = "toolStripTrayMenuItemQuitter";
-            this.toolStripTrayMenuItemQuitter.Size = new System.Drawing.Size( 149, 26 );
+            this.toolStripTrayMenuItemQuitter.Size = new System.Drawing.Size(111, 22);
             this.toolStripTrayMenuItemQuitter.Text = "Quitter";
             // 
             // backgroundWorkerTesterMiseAJour
             // 
-            this.backgroundWorkerTesterMiseAJour.DoWork += new System.ComponentModel.DoWorkEventHandler( this.backgroundWorkerTesterMiseAJour_DoWork );
-            this.backgroundWorkerTesterMiseAJour.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler( this.backgroundWorkerTesterMiseAJour_RunWorkerCompleted );
+            this.backgroundWorkerTesterMiseAJour.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorkerTesterMiseAJour_DoWork);
+            this.backgroundWorkerTesterMiseAJour.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorkerTesterMiseAJour_RunWorkerCompleted);
             // 
             // FormPrincipale
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF( 9F, 20F );
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size( 1687, 1102 );
-            this.Controls.Add( this.toolStripContainer1 );
+            this.ClientSize = new System.Drawing.Size(1125, 716);
+            this.Controls.Add(this.toolStripContainer1);
             this.DoubleBuffered = true;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject( "$this.Icon" )));
-            this.MinimumSize = new System.Drawing.Size( 300, 199 );
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MinimumSize = new System.Drawing.Size(205, 143);
             this.Name = "FormPrincipale";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Aide au pillage - Mackila";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler( this.FormPrincipale_FormClosed );
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler( this.FormPrincipale_FormClosing );
-            this.statusStrip1.ResumeLayout( false );
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormPrincipale_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormPrincipale_FormClosed);
+            this.Load += new System.EventHandler(this.FormPrincipale_Load);
+            this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            this.contextMenuStripMenuListView.ResumeLayout( false );
-            this.toolStrip1.ResumeLayout( false );
+            this.contextMenuStripMenuListView.ResumeLayout(false);
+            this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            this.toolStripContainer1.BottomToolStripPanel.ResumeLayout( false );
+            this.toolStripContainer1.BottomToolStripPanel.ResumeLayout(false);
             this.toolStripContainer1.BottomToolStripPanel.PerformLayout();
-            this.toolStripContainer1.ContentPanel.ResumeLayout( false );
-            this.toolStripContainer1.TopToolStripPanel.ResumeLayout( false );
+            this.toolStripContainer1.ContentPanel.ResumeLayout(false);
+            this.toolStripContainer1.TopToolStripPanel.ResumeLayout(false);
             this.toolStripContainer1.TopToolStripPanel.PerformLayout();
-            this.toolStripContainer1.ResumeLayout( false );
+            this.toolStripContainer1.ResumeLayout(false);
             this.toolStripContainer1.PerformLayout();
-            this.tabControlPrincipal.ResumeLayout( false );
-            this.tabPageRapports.ResumeLayout( false );
-            this.tabPageAttaquant.ResumeLayout( false );
-            this.groupBoxEmpire.ResumeLayout( false );
-            this.groupBoxTechnologie.ResumeLayout( false );
+            this.tabControlPrincipal.ResumeLayout(false);
+            this.tabPageRapports.ResumeLayout(false);
+            this.tabPageAttaquant.ResumeLayout(false);
+            this.groupBoxEmpire.ResumeLayout(false);
+            this.groupBoxTechnologie.ResumeLayout(false);
             this.groupBoxTechnologie.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSourceParametresTechnologieAttaquant)).EndInit();
-            this.groupBoxFlotte.ResumeLayout( false );
+            this.groupBoxFlotte.ResumeLayout(false);
             this.groupBoxFlotte.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSourceParametresFlotteAttaquante)).EndInit();
-            this.tabPageUnivers.ResumeLayout( false );
-            this.groupBoxRecherche.ResumeLayout( false );
+            this.tabPageUnivers.ResumeLayout(false);
+            this.groupBoxRecherche.ResumeLayout(false);
             this.groupBoxRecherche.PerformLayout();
-            this.groupBoxUnivers.ResumeLayout( false );
+            this.groupBoxUnivers.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.tabControlUnivers.ResumeLayout( false );
-            this.groupBoxVueSysteme.ResumeLayout( false );
-            this.contextMenuStripSysteme.ResumeLayout( false );
-            this.tabPageClassement.ResumeLayout( false );
-            this.tabPageParametres.ResumeLayout( false );
+            this.tabControlUnivers.ResumeLayout(false);
+            this.groupBoxVueSysteme.ResumeLayout(false);
+            this.contextMenuStripSysteme.ResumeLayout(false);
+            this.tabPageClassement.ResumeLayout(false);
+            this.tabPageParametres.ResumeLayout(false);
             this.tabPageParametres.PerformLayout();
-            this.groupBoxMiseAJour.ResumeLayout( false );
+            this.groupBoxMiseAJour.ResumeLayout(false);
             this.groupBoxMiseAJour.PerformLayout();
-            this.groupBoxServeur.ResumeLayout( false );
+            this.groupBoxServeur.ResumeLayout(false);
             this.groupBoxServeur.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBoxParamsSimuEnMasse.ResumeLayout( false );
+            this.groupBoxParamsSimuEnMasse.ResumeLayout(false);
             this.groupBoxParamsSimuEnMasse.PerformLayout();
-            this.groupBoxAmis.ResumeLayout( false );
+            this.groupBoxAmis.ResumeLayout(false);
             this.groupBoxAmis.PerformLayout();
-            this.groupBoxColonnesAffichees.ResumeLayout( false );
-            this.tabPageNavigateur.ResumeLayout( false );
+            this.groupBoxColonnesAffichees.ResumeLayout(false);
+            this.tabPageNavigateur.ResumeLayout(false);
             this.tabPageNavigateur.PerformLayout();
-            this.panel1.ResumeLayout( false );
-            this.contextMenuStripTray.ResumeLayout( false );
-            this.ResumeLayout( false );
+            this.panel1.ResumeLayout(false);
+            this.contextMenuStripTray.ResumeLayout(false);
+            this.ResumeLayout(false);
 
         }
 
@@ -3081,6 +3098,7 @@ namespace OgameFarmingInterface
         public System.Windows.Forms.TextBox textBoxPasse;
         public System.Windows.Forms.TextBox textBoxLogin;
         private System.Windows.Forms.ColumnHeader columnHeaderResultatRecherchePresenceLune;
+        private System.Windows.Forms.Button ButtonInfoserver;
     }
 }
 

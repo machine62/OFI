@@ -66,5 +66,9 @@ namespace OgameFarmingInterface
             fp.AnalysePressePapier = true ;
         }
 
+        private void FormAffichageRapport_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

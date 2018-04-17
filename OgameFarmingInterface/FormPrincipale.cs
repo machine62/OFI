@@ -21,7 +21,7 @@ namespace OgameFarmingInterface
     public partial class FormPrincipale : Form
     {
         // A modifier à chaque nouvelle sortie...
-        private static int version_courante = 20070624 ;
+        public  static int version_courante = 20070624 ;
         
         #region Initialisation globale
 
@@ -3667,7 +3667,7 @@ namespace OgameFarmingInterface
 
         private void buttonConnecter_Click( object sender, EventArgs e )
         {
-            if ( ! serveur.EstConnecte )
+                      if ( ! serveur.EstConnecte )
             {
                 sauvegardeLesParametresServeur() ;
                 serveur.Login      = textBoxLogin.Text ;
@@ -3675,8 +3675,19 @@ namespace OgameFarmingInterface
                 serveur.URL        = textBoxURL.Text   ;
                 if ( !serveur.Connecte() )
                 {
-                    AfficheMessage("La connection a échoué. Vérifiez vos identifiants et l'adresse du serveur.") ;
+                    AfficheMessage("La connexion a échoué. Vérifiez vos identifiants et l'adresse du serveur.") ;
                 }
+                else
+                {
+                    buttonConnecter.Text = "Déconnecter";
+                    buttonExporter.Enabled = serveur.canExportPlanets;
+                    buttonImporter.Enabled = serveur.canImportPlanets;
+                    buttonRecupererRapports.Enabled = serveur.canExportReports;
+                    buttonEnvoyerRapports.Enabled = serveur.canImportReports;
+                    AfficheMessage("Connecté.");
+
+                }
+
             }
             else
             {
@@ -3687,6 +3698,19 @@ namespace OgameFarmingInterface
                 buttonRecupererRapports.Enabled = false ;
                 buttonEnvoyerRapports.Enabled = false ;
             }
+        }
+
+        private void ButtonInfoserver_Click(object sender, EventArgs e)
+        {
+            if (!serveur.EstConnecte)
+            {
+                MessageBox.Show("Vous n'etes pas connecté");
+            }
+            else
+            {
+                MessageBox.Show(serveur.ogspy_server_details());
+            }
+
         }
 
         public int nombreDeGalaxiesSelectionnees()
@@ -4090,6 +4114,12 @@ namespace OgameFarmingInterface
         }
 
         #endregion
+
+        private void FormPrincipale_Load(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }

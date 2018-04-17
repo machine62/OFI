@@ -45,5 +45,7 @@ namespace OgameFarmingInterface
             ProcessStartInfo psi = new ProcessStartInfo("http://mackila.com/phpBB2") ;
             Process.Start( psi ) ;
         }
+
+
     }
 }
