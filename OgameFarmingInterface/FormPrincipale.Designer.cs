@@ -688,7 +688,7 @@ namespace OgameFarmingInterface
             // toolStripContainer1.ContentPanel
             // 
             this.toolStripContainer1.ContentPanel.Controls.Add(this.tabControlPrincipal);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1125, 669);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1100, 669);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.toolStripContainer1.Location = new System.Drawing.Point(0, 0);
             this.toolStripContainer1.Name = "toolStripContainer1";
@@ -715,7 +715,7 @@ namespace OgameFarmingInterface
             this.tabControlPrincipal.Margin = new System.Windows.Forms.Padding(3, 3, 1, 1);
             this.tabControlPrincipal.Name = "tabControlPrincipal";
             this.tabControlPrincipal.SelectedIndex = 0;
-            this.tabControlPrincipal.Size = new System.Drawing.Size(1121, 660);
+            this.tabControlPrincipal.Size = new System.Drawing.Size(1096, 660);
             this.tabControlPrincipal.TabIndex = 4;
             // 
             // tabPageRapports
@@ -1975,7 +1975,7 @@ namespace OgameFarmingInterface
             this.tabPageParametres.Location = new System.Drawing.Point(4, 22);
             this.tabPageParametres.Name = "tabPageParametres";
             this.tabPageParametres.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageParametres.Size = new System.Drawing.Size(1113, 634);
+            this.tabPageParametres.Size = new System.Drawing.Size(1088, 634);
             this.tabPageParametres.TabIndex = 4;
             this.tabPageParametres.Text = "Paramètres";
             this.tabPageParametres.UseVisualStyleBackColor = true;

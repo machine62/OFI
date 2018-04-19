@@ -4909,7 +4909,7 @@ Inactif 28 jours	I
                     //autorisation d'import
 
                     _canExportReports = true;
-                    //_canExportPlanets = true;
+                    _canExportPlanets = true;
                     // _canImportReports = true;
                     // _canImportPlanets = true;
 
@@ -5209,8 +5209,96 @@ Inactif 28 jours	I
             }
             return retour;
         }
-
         public Collection<Planete> ImporteLaGalaxie(int galaxie)
+        {
+            if (galaxie < 1 || galaxie > 9)
+            {
+                throw new ArgumentOutOfRangeException("galaxie", "Une Galaxie doit etre comprise entre 1 et 9 (est " + galaxie + ")");
+            }
+            if (!EstConnecte)
+            {
+                throw new Exception("Impossible d'importer une galaxie : non connecté au serveur.");
+            }
+            Collection<Planete> retour = new Collection<Planete>();
+           try
+            {
+
+                //preparationd e la requete
+                Dictionary<string, string> dictionary = new Dictionary<string, string>();
+                dictionary.Add("cmd", "api_send_ogspy_galaxy");
+                dictionary.Add("galaxy", galaxie.ToString());
+                var json = JsonConvert.SerializeObject(dictionary);
+                string arg = "data=" + json.ToString();
+                string _retour = Get_Ogspy_Content(URL, arg);
+
+                JObject jobj = JObject.Parse(_retour); // parsing de la reponse
+
+                JArray items = (JArray)jobj["content"]; // recuperation du nb de re
+                int NBPlanete = items.Count;
+                Collection<Planete> PlaneteCol = new Collection<Planete>();
+
+                // on parcour chaque re pour l'inserer à la collection
+                for (int indexPlnet = 0; indexPlnet < NBPlanete; indexPlnet++)
+                {
+
+                    JObject rapportJson = (JObject)jobj["content"][indexPlnet];
+                    Planete planete = new Planete();
+                    planete.Alliance = rapportJson["ally"].ToString();
+                     planete.coordonnees.Galaxie = (UInt16)rapportJson["galaxy"];
+                    planete.coordonnees.Systeme = (UInt16)rapportJson["system"];
+                    planete.coordonnees.Planete = (UInt16)rapportJson["row"];
+                    if (rapportJson["moon"].ToString() == "1")
+                    {
+                        planete.AUneLune = true;
+                    }
+                    planete.Joueur = rapportJson["player"].ToString();
+                    planete.Nom = rapportJson["name"].ToString();
+                    planete.Status = Utils.lireStatus(rapportJson["status"].ToString());
+
+                    System.DateTime dateTime = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
+                    planete.DateEtHeureDeLecture = dateTime.AddSeconds((double)rapportJson["last_update"]);
+                    
+
+
+
+
+
+                    //traitement du retour
+                    // planete.coordonnees.Galaxie = g;
+                    // planete.coordonnees.Systeme = s;
+                    // planete.coordonnees.Planete = p;
+
+
+
+
+                    retour.Add(planete);
+
+
+                }       
+                  
+          
+                }
+
+          catch (Exception ex)
+                    {
+                 log.Debug("Echec de transformation du rapport.");
+                        log.Debug("Message :");
+                        log.Debug(ex.Message);
+                 log.Debug("Source :");
+                 log.Debug(ex.Source);
+                        log.Debug("Source :");
+                     throw new Exception("L'importation de la galaxie " + galaxie + " a échoué.", ex);
+
+            }
+
+
+            return retour;
+
+
+           
+        }
+
+        public Collection<Planete> ImporteLaGalaxie_old(int galaxie)
         {
             if (galaxie < 1 || galaxie > 9)
             {
